@@ -1,11 +1,4 @@
 <div class="container" [class.is-mobile]="mobileQuery.matches">
-  <mat-toolbar color="primary" class="toolbar">
-    <button mat-icon-button (click)="snav.toggle()">
-      <mat-icon>menu</mat-icon>
-    </button>
-    <h1 class="app-name">Nyayo Web App</h1>
-  </mat-toolbar>
-
   <mat-sidenav-container
     class="sidenav-container"
     [style.marginTop.px]="mobileQuery.matches ? 56 : 0"
@@ -15,16 +8,39 @@
       [mode]="mobileQuery.matches ? 'over' : 'side'"
       [fixedInViewport]="mobileQuery.matches"
       fixedTopGap="56"
+      role="navigation"
+      [(opened)]="opened"
+      class="p-5"
     >
       <mat-nav-list>
-        <a mat-list-item routerLink="." *ngFor="let nav of fillerNav">{{
-          nav
-        }}</a>
+        <h1 class="text-white font-extrabold text-3xl mb-16">NYAYO</h1>
+        <ng-container *ngFor="let navItem of sideNavList">
+          <li
+            mat-list-item
+            class="justify-start w-full my-2 p-2 rounded-md cursor-pointer text-white hover:bg-orange-500"
+          >
+            <a routerLinkActive="active" class="flex flex-row">
+              <mat-icon class="icon" *ngIf="navItem.icon">
+                {{ navItem.icon }}
+              </mat-icon>
+              <span class="flex flex-row justify-between w-full pe-2 ps-4"
+                >{{ navItem.name }}
+                <mat-icon *ngIf="navItem.dropdown">chevron_right</mat-icon>
+              </span>
+            </a>
+          </li>
+        </ng-container>
       </mat-nav-list>
     </mat-sidenav>
 
-    <mat-sidenav-content>
-      <p *ngFor="let content of fillerContent">{{ content }}</p>
+    <mat-sidenav-content role="main">
+      <mat-toolbar class="toolbar">
+        <button mat-icon-button (click)="snav.toggle()">
+          <mat-icon>menu</mat-icon>
+        </button>
+        <P class="page-title">COLLECTIONS</P>
+      </mat-toolbar>
+      <p *ngFor="let content of sidenavContent">{{ content }}</p>
     </mat-sidenav-content>
   </mat-sidenav-container>
 </div>
