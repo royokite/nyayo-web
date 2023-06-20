@@ -17,9 +17,15 @@
         <ng-container *ngFor="let navItem of sideNavList">
           <li
             mat-list-item
-            class="justify-start w-full my-2 p-2 rounded-md cursor-pointer text-white hover:bg-orange-500"
+            class="justify-start w-full my-2 rounded-md cursor-pointer text-white hover:bg-orange-500"
+            (click)="linkChild.click()"
           >
-            <a routerLinkActive="active" class="flex flex-row">
+            <a
+              #linkChild
+              [routerLink]="navItem.route"
+              routerLinkActive="active"
+              class="flex flex-row rounded-md p-2"
+            >
               <mat-icon class="icon" *ngIf="navItem.icon">
                 {{ navItem.icon }}
               </mat-icon>
@@ -40,7 +46,7 @@
         </button>
         <P class="page-title">COLLECTIONS</P>
       </mat-toolbar>
-      <p *ngFor="let content of sidenavContent">{{ content }}</p>
+      <router-outlet></router-outlet>
     </mat-sidenav-content>
   </mat-sidenav-container>
 </div>

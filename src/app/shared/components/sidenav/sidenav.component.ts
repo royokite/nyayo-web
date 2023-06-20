@@ -11,16 +11,6 @@ export class SidenavComponent implements OnDestroy {
   opened: boolean = true;
   sideNavList: any[] = [];
 
-  sidenavContent = Array.from(
-    { length: 10 },
-    () =>
-      `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-       labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-       laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-       voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-       cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
-  );
-
   private _mobileQueryListener: () => void;
 
   constructor(changeDetectorRef: ChangeDetectorRef, media: MediaMatcher) {
@@ -40,7 +30,7 @@ export class SidenavComponent implements OnDestroy {
       },
       { name: 'Payments', route: '/payments', icon: 'payment' },
       {
-        name: 'Reports', route: '', icon: 'bar_chart', dropdown: true, children: [
+        name: 'Reports', route: '/reports', icon: 'bar_chart', dropdown: true, children: [
           { name: 'Area', route: '', icon: '' },
           { name: 'Personnel', route: '', icon: '' },
           { name: 'Payments', route: '', icon: '' }

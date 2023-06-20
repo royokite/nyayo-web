@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 
 import { MaterialModule } from '../material/material.module';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
-
+import { SidenavRoutingModule } from './components/sidenav/sidenav-routing.module';
 
 
 @NgModule({
@@ -12,7 +12,8 @@ import { SidenavComponent } from './components/sidenav/sidenav.component';
   ],
   imports: [
     CommonModule,
-    MaterialModule
+    MaterialModule,
+    SidenavRoutingModule
   ],
   exports: [SidenavComponent]
 })
