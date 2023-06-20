@@ -12,6 +12,7 @@
   position: fixed;
   /* Make sure the toolbar will stay on top of the content as it scrolls past. */
   z-index: 2;
+  top: 0;
 }
 
 .sidenav-container {
@@ -43,4 +44,12 @@ mat-sidenav {
 
 .active {
   background-color: #f97316;
+}
+
+.navctrl {
+  color: #357A3E;
+}
+
+.mat-badge-content {
+  color: whitesmoke;
 }

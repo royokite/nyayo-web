@@ -40,13 +40,48 @@
     </mat-sidenav>
 
     <mat-sidenav-content role="main">
-      <mat-toolbar class="toolbar">
-        <button mat-icon-button (click)="snav.toggle()">
-          <mat-icon>menu</mat-icon>
-        </button>
-        <P class="page-title">COLLECTIONS</P>
+      <mat-toolbar class="toolbar justify-between">
+        <article class="flex items-center">
+          <button mat-icon-button (click)="snav.toggle()">
+            <mat-icon class="navctrl">menu</mat-icon>
+          </button>
+          <P *ngIf="!mobileQuery.matches" class="page-title mt-2"
+            >Welcome, John</P
+          >
+        </article>
+        <article class="flex justify-between items-center w-60">
+          <button
+            [matBadge]="badgeCount"
+            matBadgeColor="accent"
+            class="border border-orange-500 rounded-xl px-1 pt-0.5 w-8 h-8 hover:bg-orange-500"
+          >
+            <mat-icon class="text-slate-500 text-lg hover:text-slate-200"
+              >notifications_none</mat-icon
+            >
+          </button>
+          <button
+            class="border border-orange-500 rounded-xl px-1 pt-0.5 w-8 h-8 hover:bg-orange-500"
+          >
+            <mat-icon class="text-slate-500 text-lg hover:text-slate-200"
+              >settings</mat-icon
+            >
+          </button>
+          <div class="flex items-center justify-evenly w-32 ml-4">
+            <img
+              src="../../../../assets/A1.png"
+              alt="profile pic"
+              class="w-8 h-8 rounded-xl"
+            />
+            <span class="ml-3">
+              <p class="font-medium text-sm">John Doe</p>
+              <p class="text-orange-500 text-xs">Super Admin</p>
+            </span>
+          </div>
+        </article>
       </mat-toolbar>
-      <router-outlet></router-outlet>
+      <section class="p-6 my-2">
+        <router-outlet></router-outlet>
+      </section>
     </mat-sidenav-content>
   </mat-sidenav-container>
 </div>

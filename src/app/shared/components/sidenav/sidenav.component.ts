@@ -10,6 +10,7 @@ export class SidenavComponent implements OnDestroy {
   mobileQuery: MediaQueryList;
   opened: boolean = true;
   sideNavList: any[] = [];
+  badgeCount: number = 5;
 
   private _mobileQueryListener: () => void;
 
