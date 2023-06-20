@@ -1,0 +1,20 @@
+.settings-container {
+  box-shadow:  0 0 5px  rgba(0,0,0,0.6);
+}
+
+mat-expansion-panel-header {
+  background-color: #fb923c !important;
+}
+
+mat-expansion-panel-header:hover {
+  background-color: #f97316 !important;
+}
+
+.headers-align .mat-expansion-panel-header-description {
+  justify-content: space-between;
+  align-items: center;  
+}
+
+.headers-align .mat-mdc-form-field + .mat-mdc-form-field {
+  margin-left: 8px;
+}
