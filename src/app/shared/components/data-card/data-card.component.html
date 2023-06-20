@@ -1,0 +1,30 @@
+<div
+  class="card grid justify-items-center rounded-md font-medium shadow-lg"
+  [style.backgroundImage]="backgroundImage"
+>
+  <h2>{{ title }}</h2>
+  <div class="flex justify-between">
+    <select
+      *ngIf="showDropdown"
+      name="zones"
+      id="zones"
+      class="bg-transparent rounded-full border p-0 h-8 w-auto mr-10 border-slate-700"
+      [value]="selected"
+    >
+      <option value="embu">Embu</option>
+      <option value="nyeri">Nyeri</option>
+      <option value="muranga">Murang'a</option>
+      <option value="kirinyaga">Kirinyaga</option>
+    </select>
+    <!-- <mat-form-field *ngIf="showDropdown" class="w-1/2 p-0">
+      <mat-label>Zone</mat-label>
+      <mat-select [(value)]="selected">
+        <mat-option>None</mat-option>
+        <mat-option value="option1">Option 1</mat-option>
+        <mat-option value="option2">Option 2</mat-option>
+        <mat-option value="option3">Option 3</mat-option>
+      </mat-select>
+    </mat-form-field> -->
+    <div class="text-2xl">{{ number }}</div>
+  </div>
+</div>
