@@ -1,19 +1,14 @@
 <section class="settings-container rounded-md">
-  <div class="p-5">
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Expedita beatae
-    aliquam, fuga omnis ipsum reprehenderit nulla minus, vitae dicta numquam
-    voluptas mollitia facilis fugiat debitis accusamus officia eligendi nihil!
-    Aliquid repellat nulla optio exercitationem debitis eveniet earum saepe non
-    libero. Fugiat itaque natus eos magni voluptas odit nam reiciendis possimus
-    commodi distinctio? A, tempora dolor corporis culpa vel pariatur facere.
-    Unde perferendis, consectetur rem veniam sequi nobis ea adipisci reiciendis
-    autem totam eius voluptatum dolor, vero animi dolorum repudiandae quisquam
-    obcaecati vitae esse nam ipsam velit provident? Quas quis doloremque cumque
-    veniam dolorum numquam laborum quisquam, dignissimos velit quibusdam
-    repellat! Accusantium nesciunt alias atque aliquam, architecto dolores illo,
-    rem nisi deserunt earum quam ducimus inventore veniam labore omnis aliquid
-    minima laborum? Quam pariatur temporibus unde ea eveniet distinctio
-    accusantium, accusamus repellendus voluptatem.
+  <div class="p-5 flex h-auto justify-between">
+    <img src="../../../assets/images/coins-vector.jpg" alt="coins vector" />
+    <img
+      src="../../../assets/images/settings-vector.jpg"
+      alt="settings vector"
+    />
+    <img
+      src="../../../assets/images/calendar-vector.jpg"
+      alt="calendar vector"
+    />
   </div>
   <div class="p-3">
     <button mat-stroked-button color="accent" (click)="accordion.openAll()">
@@ -49,7 +44,7 @@
             <p class="font-medium">New Rate: (Ksh/Kg)</p>
             <input
               type="text"
-              class="border-2 border-slate-500 rounded-md w-28"
+              class="border-2 border-slate-500 rounded-md w-28 px-2"
             />
           </span>
         </div>
@@ -86,16 +81,20 @@
         </p>
         <p class="text-slate-500 mb-5">Payment Period</p>
 
-        <mat-form-field class="w-min">
-          <mat-label>Date</mat-label>
+        <mat-form-field class="w-min" color="accent" appearance="outline">
           <input
             matInput
             [matDatepicker]="picker"
             (focus)="picker.open()"
             readonly
+            placeholder="Date"
           />
+          <mat-datepicker-toggle
+            matIconSuffix
+            [for]="picker"
+          ></mat-datepicker-toggle>
+          <mat-datepicker #picker></mat-datepicker>
         </mat-form-field>
-        <mat-datepicker #picker></mat-datepicker>
       </div>
     </mat-expansion-panel>
   </mat-accordion>
