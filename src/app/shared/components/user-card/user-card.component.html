@@ -1,0 +1,42 @@
+<article class="rounded-xl border-2 border-slate-300 shadow-xl p-5 w-64">
+  <div class="flex items-center mb-4 last:">
+    <div class="border-2 border-slate-600 w-16 rounded-full">
+      <img
+        [src]="profileImage"
+        alt="staff profile"
+        class="object-fill rounded-full"
+      />
+    </div>
+    <span class="px-4 font-medium">{{ staffName }}</span>
+  </div>
+  <div>
+    <span class="flex font-medium items-center mb-2"
+      >Roles:
+      <p class="font-normal text-xs pl-4">{{ staffRoles }}</p>
+    </span>
+    <span class="flex font-medium items-center mb-2"
+      >National ID:
+      <p class="font-normal text-xs pl-4">{{ staffID }}</p>
+    </span>
+    <span class="flex font-medium items-center mb-2"
+      >E-Mail:
+      <p class="font-normal text-xs pl-4">{{ staffEmail }}</p>
+    </span>
+    <span class="flex font-medium items-center mb-2"
+      >Vehicle Reg No:
+      <p class="font-normal text-xs pl-4">{{ vehicleRegNo }}</p>
+    </span>
+  </div>
+  <div class="flex mt-4">
+    <div
+      class="w-6 h-6 border-2 rounded-full"
+      [style.borderColor]="is_active ? '#357A3E' : 'red'"
+    ></div>
+    <span
+      class="font-medium pl-4"
+      [style.color]="is_active ? '#357A3E' : 'red'"
+    >
+      {{ is_active ? "Active" : "Inactive" }}
+    </span>
+  </div>
+</article>
