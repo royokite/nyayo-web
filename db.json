@@ -1,0 +1,36 @@
+{
+  "collections": {
+    "supervisor": [
+      {
+        "transaction_id": 20230302071,
+        "casual_id": 2023071,
+        "casual_name": "Portgas Ace",
+        "total_weight": 35
+      },
+      {
+        "transaction_id": 20230302072,
+        "casual_id": 2023072,
+        "casual_name": "Nefertari Vivi",
+        "total_weight": 40
+      },
+      {
+        "transaction_id": 20230302073,
+        "casual_id": 2023073,
+        "casual_name": "Boa Hancock",
+        "total_weight": 38
+      },
+      {
+        "transaction_id": 20230302074,
+        "casual_id": 2023074,
+        "casual_name": "Monkey D. Dragon",
+        "total_weight": 28
+      },
+      {
+        "transaction_id": 20230302075,
+        "casual_id": 2023075,
+        "casual_name": "Sakazuki Akainu",
+        "total_weight": 50
+      }
+    ]
+  }
+}
