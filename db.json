@@ -1,310 +1,308 @@
-[
-  {
-    "supervisor": [
-      {
-        "transaction_id": 20230302071,
-        "casual_id": 2023071,
-        "casual_name": "Bernadette Goodwin",
-        "total_weight": 34
-      },
-      {
-        "transaction_id": 20230302072,
-        "casual_id": 2023072,
-        "casual_name": "Petra Harrison",
-        "total_weight": 35
-      },
-      {
-        "transaction_id": 20230302073,
-        "casual_id": 2023073,
-        "casual_name": "Price Bridges",
-        "total_weight": 36
-      },
-      {
-        "transaction_id": 20230302074,
-        "casual_id": 2023074,
-        "casual_name": "Sykes Joyce",
-        "total_weight": 37
-      },
-      {
-        "transaction_id": 20230302075,
-        "casual_id": 2023075,
-        "casual_name": "Garner Strong",
-        "total_weight": 38
-      },
-      {
-        "transaction_id": 20230302076,
-        "casual_id": 2023076,
-        "casual_name": "Alyssa Castillo",
-        "total_weight": 39
-      },
-      {
-        "transaction_id": 20230302077,
-        "casual_id": 2023077,
-        "casual_name": "Mckay Banks",
-        "total_weight": 40
-      },
-      {
-        "transaction_id": 20230302078,
-        "casual_id": 2023078,
-        "casual_name": "Shari Fisher",
-        "total_weight": 41
-      },
-      {
-        "transaction_id": 20230302079,
-        "casual_id": 2023079,
-        "casual_name": "Jennings Rowe",
-        "total_weight": 42
-      },
-      {
-        "transaction_id": 20230302080,
-        "casual_id": 2023080,
-        "casual_name": "Dyer Cotton",
-        "total_weight": 43
-      },
-      {
-        "transaction_id": 20230302081,
-        "casual_id": 2023081,
-        "casual_name": "Verna Padilla",
-        "total_weight": 44
-      },
-      {
-        "transaction_id": 20230302082,
-        "casual_id": 2023082,
-        "casual_name": "Burch Trujillo",
-        "total_weight": 45
-      },
-      {
-        "transaction_id": 20230302083,
-        "casual_id": 2023083,
-        "casual_name": "Matilda Kirk",
-        "total_weight": 46
-      },
-      {
-        "transaction_id": 20230302084,
-        "casual_id": 2023084,
-        "casual_name": "Lucile Salinas",
-        "total_weight": 47
-      },
-      {
-        "transaction_id": 20230302085,
-        "casual_id": 2023085,
-        "casual_name": "Rosanna Sanford",
-        "total_weight": 48
-      }
-    ],
-    "driver": [
-      {
-        "transaction_id": 20230302071,
-        "supervisor_id": 2023071,
-        "supervisor_name": "Cecile Galloway",
-        "total_weight": 34,
-        "block_name": "Idledale"
-      },
-      {
-        "transaction_id": 20230302072,
-        "supervisor_id": 2023072,
-        "supervisor_name": "Robertson Mcconnell",
-        "total_weight": 35,
-        "block_name": "Ronco"
-      },
-      {
-        "transaction_id": 20230302073,
-        "supervisor_id": 2023073,
-        "supervisor_name": "Estella Francis",
-        "total_weight": 36,
-        "block_name": "Munjor"
-      },
-      {
-        "transaction_id": 20230302074,
-        "supervisor_id": 2023074,
-        "supervisor_name": "Conrad Saunders",
-        "total_weight": 37,
-        "block_name": "Ryderwood"
-      },
-      {
-        "transaction_id": 20230302075,
-        "supervisor_id": 2023075,
-        "supervisor_name": "Jayne Meyer",
-        "total_weight": 38,
-        "block_name": "Lund"
-      },
-      {
-        "transaction_id": 20230302076,
-        "supervisor_id": 2023076,
-        "supervisor_name": "Foley Wolf",
-        "total_weight": 39,
-        "block_name": "Detroit"
-      },
-      {
-        "transaction_id": 20230302077,
-        "supervisor_id": 2023077,
-        "supervisor_name": "Kris Richard",
-        "total_weight": 40,
-        "block_name": "Trucksville"
-      },
-      {
-        "transaction_id": 20230302078,
-        "supervisor_id": 2023078,
-        "supervisor_name": "Riggs Parker",
-        "total_weight": 41,
-        "block_name": "Weogufka"
-      },
-      {
-        "transaction_id": 20230302079,
-        "supervisor_id": 2023079,
-        "supervisor_name": "Danielle Melton",
-        "total_weight": 42,
-        "block_name": "Gadsden"
-      },
-      {
-        "transaction_id": 20230302080,
-        "supervisor_id": 2023080,
-        "supervisor_name": "Lorrie Barry",
-        "total_weight": 43,
-        "block_name": "Courtland"
-      },
-      {
-        "transaction_id": 20230302081,
-        "supervisor_id": 2023081,
-        "supervisor_name": "Keri Curry",
-        "total_weight": 44,
-        "block_name": "Somerset"
-      },
-      {
-        "transaction_id": 20230302082,
-        "supervisor_id": 2023082,
-        "supervisor_name": "Erna Briggs",
-        "total_weight": 45,
-        "block_name": "Saddlebrooke"
-      },
-      {
-        "transaction_id": 20230302083,
-        "supervisor_id": 2023083,
-        "supervisor_name": "Morse Bryant",
-        "total_weight": 46,
-        "block_name": "Dorneyville"
-      },
-      {
-        "transaction_id": 20230302084,
-        "supervisor_id": 2023084,
-        "supervisor_name": "Felecia Buckner",
-        "total_weight": 47,
-        "block_name": "Geyserville"
-      },
-      {
-        "transaction_id": 20230302085,
-        "supervisor_id": 2023085,
-        "supervisor_name": "Patterson Frederick",
-        "total_weight": 48,
-        "block_name": "Sims"
-      }
-    ],
-    "factory": [
-      {
-        "transaction_id": 20230302071,
-        "driver_id": 2023071,
-        "driver_name": "Noel Elliott",
-        "total_weight": 34,
-        "zone_name": "Centerville"
-      },
-      {
-        "transaction_id": 20230302072,
-        "driver_id": 2023072,
-        "driver_name": "Marietta Carter",
-        "total_weight": 35,
-        "zone_name": "Knowlton"
-      },
-      {
-        "transaction_id": 20230302073,
-        "driver_id": 2023073,
-        "driver_name": "Winnie Herrera",
-        "total_weight": 36,
-        "zone_name": "Fingerville"
-      },
-      {
-        "transaction_id": 20230302074,
-        "driver_id": 2023074,
-        "driver_name": "Nora Mendez",
-        "total_weight": 37,
-        "zone_name": "Westmoreland"
-      },
-      {
-        "transaction_id": 20230302075,
-        "driver_id": 2023075,
-        "driver_name": "Humphrey Mccall",
-        "total_weight": 38,
-        "zone_name": "Crisman"
-      },
-      {
-        "transaction_id": 20230302076,
-        "driver_id": 2023076,
-        "driver_name": "Bette Oneill",
-        "total_weight": 39,
-        "zone_name": "Linwood"
-      },
-      {
-        "transaction_id": 20230302077,
-        "driver_id": 2023077,
-        "driver_name": "Roach Rojas",
-        "total_weight": 40,
-        "zone_name": "Whitestone"
-      },
-      {
-        "transaction_id": 20230302078,
-        "driver_id": 2023078,
-        "driver_name": "Mendez Kramer",
-        "total_weight": 41,
-        "zone_name": "Vandiver"
-      },
-      {
-        "transaction_id": 20230302079,
-        "driver_id": 2023079,
-        "driver_name": "Shaw Flowers",
-        "total_weight": 42,
-        "zone_name": "Norwood"
-      },
-      {
-        "transaction_id": 20230302080,
-        "driver_id": 2023080,
-        "driver_name": "Sherri Wilkins",
-        "total_weight": 43,
-        "zone_name": "Bancroft"
-      },
-      {
-        "transaction_id": 20230302081,
-        "driver_id": 2023081,
-        "driver_name": "Ross Murray",
-        "total_weight": 44,
-        "zone_name": "Axis"
-      },
-      {
-        "transaction_id": 20230302082,
-        "driver_id": 2023082,
-        "driver_name": "Queen Palmer",
-        "total_weight": 45,
-        "zone_name": "Ola"
-      },
-      {
-        "transaction_id": 20230302083,
-        "driver_id": 2023083,
-        "driver_name": "Cassandra Owens",
-        "total_weight": 46,
-        "zone_name": "Dalton"
-      },
-      {
-        "transaction_id": 20230302084,
-        "driver_id": 2023084,
-        "driver_name": "Erica Hunter",
-        "total_weight": 47,
-        "zone_name": "Leland"
-      },
-      {
-        "transaction_id": 20230302085,
-        "driver_id": 2023085,
-        "driver_name": "Snyder Yang",
-        "total_weight": 48,
-        "zone_name": "Chelsea"
-      }
-    ]
-  }
-]
+{
+  "supervisor": [
+    {
+      "transaction_id": 20230302071,
+      "casual_id": 2023071,
+      "casual_name": "Bernadette Goodwin",
+      "total_weight": 34
+    },
+    {
+      "transaction_id": 20230302072,
+      "casual_id": 2023072,
+      "casual_name": "Petra Harrison",
+      "total_weight": 35
+    },
+    {
+      "transaction_id": 20230302073,
+      "casual_id": 2023073,
+      "casual_name": "Price Bridges",
+      "total_weight": 36
+    },
+    {
+      "transaction_id": 20230302074,
+      "casual_id": 2023074,
+      "casual_name": "Sykes Joyce",
+      "total_weight": 37
+    },
+    {
+      "transaction_id": 20230302075,
+      "casual_id": 2023075,
+      "casual_name": "Garner Strong",
+      "total_weight": 38
+    },
+    {
+      "transaction_id": 20230302076,
+      "casual_id": 2023076,
+      "casual_name": "Alyssa Castillo",
+      "total_weight": 39
+    },
+    {
+      "transaction_id": 20230302077,
+      "casual_id": 2023077,
+      "casual_name": "Mckay Banks",
+      "total_weight": 40
+    },
+    {
+      "transaction_id": 20230302078,
+      "casual_id": 2023078,
+      "casual_name": "Shari Fisher",
+      "total_weight": 41
+    },
+    {
+      "transaction_id": 20230302079,
+      "casual_id": 2023079,
+      "casual_name": "Jennings Rowe",
+      "total_weight": 42
+    },
+    {
+      "transaction_id": 20230302080,
+      "casual_id": 2023080,
+      "casual_name": "Dyer Cotton",
+      "total_weight": 43
+    },
+    {
+      "transaction_id": 20230302081,
+      "casual_id": 2023081,
+      "casual_name": "Verna Padilla",
+      "total_weight": 44
+    },
+    {
+      "transaction_id": 20230302082,
+      "casual_id": 2023082,
+      "casual_name": "Burch Trujillo",
+      "total_weight": 45
+    },
+    {
+      "transaction_id": 20230302083,
+      "casual_id": 2023083,
+      "casual_name": "Matilda Kirk",
+      "total_weight": 46
+    },
+    {
+      "transaction_id": 20230302084,
+      "casual_id": 2023084,
+      "casual_name": "Lucile Salinas",
+      "total_weight": 47
+    },
+    {
+      "transaction_id": 20230302085,
+      "casual_id": 2023085,
+      "casual_name": "Rosanna Sanford",
+      "total_weight": 48
+    }
+  ],
+  "driver": [
+    {
+      "transaction_id": 20230302071,
+      "supervisor_id": 2023071,
+      "supervisor_name": "Cecile Galloway",
+      "total_weight": 34,
+      "block_name": "Idledale"
+    },
+    {
+      "transaction_id": 20230302072,
+      "supervisor_id": 2023072,
+      "supervisor_name": "Robertson Mcconnell",
+      "total_weight": 35,
+      "block_name": "Ronco"
+    },
+    {
+      "transaction_id": 20230302073,
+      "supervisor_id": 2023073,
+      "supervisor_name": "Estella Francis",
+      "total_weight": 36,
+      "block_name": "Munjor"
+    },
+    {
+      "transaction_id": 20230302074,
+      "supervisor_id": 2023074,
+      "supervisor_name": "Conrad Saunders",
+      "total_weight": 37,
+      "block_name": "Ryderwood"
+    },
+    {
+      "transaction_id": 20230302075,
+      "supervisor_id": 2023075,
+      "supervisor_name": "Jayne Meyer",
+      "total_weight": 38,
+      "block_name": "Lund"
+    },
+    {
+      "transaction_id": 20230302076,
+      "supervisor_id": 2023076,
+      "supervisor_name": "Foley Wolf",
+      "total_weight": 39,
+      "block_name": "Detroit"
+    },
+    {
+      "transaction_id": 20230302077,
+      "supervisor_id": 2023077,
+      "supervisor_name": "Kris Richard",
+      "total_weight": 40,
+      "block_name": "Trucksville"
+    },
+    {
+      "transaction_id": 20230302078,
+      "supervisor_id": 2023078,
+      "supervisor_name": "Riggs Parker",
+      "total_weight": 41,
+      "block_name": "Weogufka"
+    },
+    {
+      "transaction_id": 20230302079,
+      "supervisor_id": 2023079,
+      "supervisor_name": "Danielle Melton",
+      "total_weight": 42,
+      "block_name": "Gadsden"
+    },
+    {
+      "transaction_id": 20230302080,
+      "supervisor_id": 2023080,
+      "supervisor_name": "Lorrie Barry",
+      "total_weight": 43,
+      "block_name": "Courtland"
+    },
+    {
+      "transaction_id": 20230302081,
+      "supervisor_id": 2023081,
+      "supervisor_name": "Keri Curry",
+      "total_weight": 44,
+      "block_name": "Somerset"
+    },
+    {
+      "transaction_id": 20230302082,
+      "supervisor_id": 2023082,
+      "supervisor_name": "Erna Briggs",
+      "total_weight": 45,
+      "block_name": "Saddlebrooke"
+    },
+    {
+      "transaction_id": 20230302083,
+      "supervisor_id": 2023083,
+      "supervisor_name": "Morse Bryant",
+      "total_weight": 46,
+      "block_name": "Dorneyville"
+    },
+    {
+      "transaction_id": 20230302084,
+      "supervisor_id": 2023084,
+      "supervisor_name": "Felecia Buckner",
+      "total_weight": 47,
+      "block_name": "Geyserville"
+    },
+    {
+      "transaction_id": 20230302085,
+      "supervisor_id": 2023085,
+      "supervisor_name": "Patterson Frederick",
+      "total_weight": 48,
+      "block_name": "Sims"
+    }
+  ],
+  "factory": [
+    {
+      "transaction_id": 20230302071,
+      "driver_id": 2023071,
+      "driver_name": "Noel Elliott",
+      "total_weight": 34,
+      "zone_name": "Centerville"
+    },
+    {
+      "transaction_id": 20230302072,
+      "driver_id": 2023072,
+      "driver_name": "Marietta Carter",
+      "total_weight": 35,
+      "zone_name": "Knowlton"
+    },
+    {
+      "transaction_id": 20230302073,
+      "driver_id": 2023073,
+      "driver_name": "Winnie Herrera",
+      "total_weight": 36,
+      "zone_name": "Fingerville"
+    },
+    {
+      "transaction_id": 20230302074,
+      "driver_id": 2023074,
+      "driver_name": "Nora Mendez",
+      "total_weight": 37,
+      "zone_name": "Westmoreland"
+    },
+    {
+      "transaction_id": 20230302075,
+      "driver_id": 2023075,
+      "driver_name": "Humphrey Mccall",
+      "total_weight": 38,
+      "zone_name": "Crisman"
+    },
+    {
+      "transaction_id": 20230302076,
+      "driver_id": 2023076,
+      "driver_name": "Bette Oneill",
+      "total_weight": 39,
+      "zone_name": "Linwood"
+    },
+    {
+      "transaction_id": 20230302077,
+      "driver_id": 2023077,
+      "driver_name": "Roach Rojas",
+      "total_weight": 40,
+      "zone_name": "Whitestone"
+    },
+    {
+      "transaction_id": 20230302078,
+      "driver_id": 2023078,
+      "driver_name": "Mendez Kramer",
+      "total_weight": 41,
+      "zone_name": "Vandiver"
+    },
+    {
+      "transaction_id": 20230302079,
+      "driver_id": 2023079,
+      "driver_name": "Shaw Flowers",
+      "total_weight": 42,
+      "zone_name": "Norwood"
+    },
+    {
+      "transaction_id": 20230302080,
+      "driver_id": 2023080,
+      "driver_name": "Sherri Wilkins",
+      "total_weight": 43,
+      "zone_name": "Bancroft"
+    },
+    {
+      "transaction_id": 20230302081,
+      "driver_id": 2023081,
+      "driver_name": "Ross Murray",
+      "total_weight": 44,
+      "zone_name": "Axis"
+    },
+    {
+      "transaction_id": 20230302082,
+      "driver_id": 2023082,
+      "driver_name": "Queen Palmer",
+      "total_weight": 45,
+      "zone_name": "Ola"
+    },
+    {
+      "transaction_id": 20230302083,
+      "driver_id": 2023083,
+      "driver_name": "Cassandra Owens",
+      "total_weight": 46,
+      "zone_name": "Dalton"
+    },
+    {
+      "transaction_id": 20230302084,
+      "driver_id": 2023084,
+      "driver_name": "Erica Hunter",
+      "total_weight": 47,
+      "zone_name": "Leland"
+    },
+    {
+      "transaction_id": 20230302085,
+      "driver_id": 2023085,
+      "driver_name": "Snyder Yang",
+      "total_weight": 48,
+      "zone_name": "Chelsea"
+    }
+  ]
+}
