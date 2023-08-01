@@ -1,9 +1,15 @@
 .mat-mdc-form-field {
-  width: 30%;
+  width: 18rem;
 }
 
-td, th {
+td,
+th {
   width: 25%;
+}
+
+th {
+  color: grey;
+  font-weight: 500;
 }
 
 .table-container {
@@ -11,10 +17,5 @@ td, th {
   margin-inline: auto;
   margin: 0.5rem;
   padding: 1.5rem;
-  box-shadow:  0 0 5px  rgba(0,0,0,0.6);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
 }
-
-// ::ng-deep .mat-form-field {
-//   width: 40%;
-//   border-radius: 50%;
-// }

@@ -1,11 +1,46 @@
-.produce-data {
-  width: 68%;
-}
-
-.combine-data {
-  width: 30%;
+.dashboard-container {
+  overflow: auto;
+  margin-inline: auto;
+  padding: 0.5rem;
 }
 
 .add-shadow {
   box-shadow:  0 0 5px  rgba(0,0,0,0.6);
+}
+
+app-data-card {
+  margin-inline: auto;
+}
+
+.chart-data {
+  margin-bottom: 1.5rem;
+}
+
+app-data-card {
+  margin-bottom: 1.5rem;
+}
+
+.select,
+.date {
+  width: 10rem;
+}
+
+.period-btn {
+color: white !important;
+}
+
+@media screen and (min-width: 1024px) {
+  /* Styles for desktops and large screens */
+  .combine-data {
+  display: flex;
+  justify-content: space-between;
+  }
+  .chart-data {
+    width: 48rem;
+    margin-bottom: 0rem;
+  }
+
+  .worker-data {
+    width: 26rem;
+  }
 }

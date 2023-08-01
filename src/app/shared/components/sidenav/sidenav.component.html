@@ -9,7 +9,7 @@
       [fixedInViewport]="mobileQuery.matches"
       fixedTopGap="56"
       role="navigation"
-      [(opened)]="opened"
+      [(opened)]="mobileQuery.matches ? !opened : opened"
       class="p-5"
     >
       <mat-nav-list>
@@ -53,14 +53,14 @@
           <button
             [matBadge]="badgeCount"
             matBadgeColor="accent"
-            class="border border-orange-500 rounded-xl px-1 pt-0.5 w-8 h-8 hover:bg-orange-500"
+            class="border border-orange-500 rounded-xl justify-center items-center pt-0.5 w-8 h-8 hover:bg-orange-500"
           >
             <mat-icon class="text-slate-500 text-lg hover:text-slate-200"
               >notifications_none</mat-icon
             >
           </button>
           <button
-            class="border border-orange-500 rounded-xl px-1 pt-0.5 w-8 h-8 hover:bg-orange-500"
+            class="border border-orange-500 rounded-xl justify-center items-center pt-0.5 w-8 h-8 hover:bg-orange-500"
           >
             <mat-icon class="text-slate-500 text-lg hover:text-slate-200"
               >settings</mat-icon
@@ -79,7 +79,7 @@
           </div>
         </article>
       </mat-toolbar>
-      <section class="p-6 my-2">
+      <section class="lg:p-6 my-2">
         <router-outlet></router-outlet>
       </section>
     </mat-sidenav-content>

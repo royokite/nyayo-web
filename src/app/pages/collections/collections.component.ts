@@ -1,96 +1,64 @@
-import { AfterViewInit, Component, ViewChild } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { MatTableDataSource } from '@angular/material/table';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
+import { DataService } from 'src/app/services/data.service';
 
-export interface UserData {
-  id: string;
-  name: string;
-  progress: string;
-  fruit: string;
+export interface SupervisorCollections {
+  transaction_id: number;
+  casual_id: number;
+  casual_name: string;
+  total_weight: number;
 }
-
-/** Constants used to fill up our data base. */
-const FRUITS: string[] = [
-  'blueberry',
-  'lychee',
-  'kiwi',
-  'mango',
-  'peach',
-  'lime',
-  'pomegranate',
-  'pineapple',
-];
-const NAMES: string[] = [
-  'Maia',
-  'Asher',
-  'Olivia',
-  'Atticus',
-  'Amelia',
-  'Jack',
-  'Charlotte',
-  'Theodore',
-  'Isla',
-  'Oliver',
-  'Isabella',
-  'Jasper',
-  'Cora',
-  'Levi',
-  'Violet',
-  'Arthur',
-  'Mia',
-  'Thomas',
-  'Elizabeth',
-];
 
 @Component({
   selector: 'app-collections',
   templateUrl: './collections.component.html',
   styleUrls: ['./collections.component.scss']
 })
-export class CollectionsComponent implements AfterViewInit {
-  displayedColumns: string[] = ['id', 'name', 'progress', 'fruit'];
-  dataSource: MatTableDataSource<UserData>;
+export class CollectionsComponent implements OnInit {
+  supervisorDisplayedColumns: string[] = ['transaction_id', 'casual_id', 'casual_name', 'total_weight'];
+  driverDisplayedColumns: string[] = ['transaction_id', 'supervisor_id', 'supervisor_name', 'total_weight', 'block_name'];
+  factoryDisplayedColumns: string[] = ['transaction_id', 'driver_id', 'driver_name', 'total_weight', 'zone_name'];
+
+  supervisorDataSource!: MatTableDataSource<any>;
+  driverDataSource!: MatTableDataSource<any>;
+  factoryDataSource!: MatTableDataSource<any>;
 
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
 
-  constructor() {
-    // Create 100 users
-    const users = Array.from({ length: 100 }, (_, k) => createNewUser(k + 1));
+  constructor(private dataService: DataService) { }
 
-    // Assign the data to the data source for the table to render
-    this.dataSource = new MatTableDataSource(users);
-  }
-
-  ngAfterViewInit() {
-    this.dataSource.paginator = this.paginator;
-    this.dataSource.sort = this.sort;
+  ngOnInit(): void {
+    this.getSupervisorCollections();
   }
 
   applyFilter(event: Event) {
     const filterValue = (event.target as HTMLInputElement).value;
-    this.dataSource.filter = filterValue.trim().toLowerCase();
+    this.supervisorDataSource.filter = filterValue.trim().toLowerCase();
 
-    if (this.dataSource.paginator) {
-      this.dataSource.paginator.firstPage();
+    if (this.supervisorDataSource.paginator) {
+      this.supervisorDataSource.paginator.firstPage();
     }
   }
-}
 
-/** Builds and returns a new User. */
-function createNewUser(id: number): UserData {
-  const name =
-    NAMES[Math.round(Math.random() * (NAMES.length - 1))] +
-    ' ' +
-    NAMES[Math.round(Math.random() * (NAMES.length - 1))].charAt(0) +
-    '.';
+  getSupervisorCollections() {
+    this.dataService.getData().subscribe(data => {
+      this.supervisorDataSource = new MatTableDataSource(data.supervisor)
+      this.driverDataSource = new MatTableDataSource(data.driver)
+      this.supervisorDataSource.paginator = this.paginator;
+      this.supervisorDataSource.sort = this.sort;
+    }
+    );
+  }
 
-  return {
-    id: id.toString(),
-    name: name,
-    progress: Math.round(Math.random() * 100).toString(),
-    fruit: FRUITS[Math.round(Math.random() * (FRUITS.length - 1))],
-  };
-
+  // getDriverCollections() {
+  //   this.dataService.getData().subscribe(data => {
+  //     this.driverDataSource = new MatTableDataSource(data.driver)
+  //     this.driverDataSource.paginator = this.paginator;
+  //     this.driverDataSource.sort = this.sort;
+  //   }
+  //   );
+  // }
 }

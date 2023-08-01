@@ -1,1 +1,78 @@
-<p>users works!</p>
+<mat-tab-group
+  color="accent"
+  mat-stretch-tabs="false"
+  mat-align-tabs="start"
+  fitInkBarToContent
+>
+  <mat-tab label="Casuals">
+    <section class="staff-container mat-elevation-z8 rounded-md">
+      <h2 class="mb-2 text-slate-700 font-medium">CASUALS</h2>
+      <article class="flex flex-wrap justify-between items-end">
+        <mat-form-field class="search" color="accent" appearance="outline">
+          <mat-icon matPrefix color="accent">search</mat-icon>
+          <input matInput placeholder="Search" #input />
+        </mat-form-field>
+        <span class="mx-1">
+          <p>Select Area</p>
+          <mat-form-field class="select" color="accent" appearance="outline">
+            <mat-select>
+              <mat-option value="">All</mat-option>
+              <mat-option value="embu">Embu</mat-option>
+              <mat-option value="nyeri">Nyeri</mat-option>
+              <mat-option value="muranga">Murang'a</mat-option>
+              <mat-option value="kirinyaga">Kirinyaga</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </span>
+      </article>
+      <article>Casuals Table</article>
+    </section>
+  </mat-tab>
+
+  <mat-tab label="Staff">
+    <section class="staff-container mat-elevation-z8 rounded-md">
+      <h2 class="mb-2 text-slate-700 font-medium">STAFF</h2>
+      <article class="flex flex-wrap justify-between items-end">
+        <mat-form-field class="search" color="accent" appearance="outline">
+          <mat-icon matPrefix color="accent">search</mat-icon>
+          <input matInput placeholder="Search" #input />
+        </mat-form-field>
+        <aside class="flex flex-wrap">
+          <span class="mx-1">
+            <p>Status</p>
+            <mat-form-field class="select" color="accent" appearance="outline">
+              <mat-select>
+                <mat-option value="">All</mat-option>
+                <mat-option value="active">Active</mat-option>
+                <mat-option value="inactive">Inactive</mat-option>
+              </mat-select>
+            </mat-form-field>
+          </span>
+          <span class="mx-1">
+            <p>Role</p>
+            <mat-form-field class="select" color="accent" appearance="outline">
+              <mat-select>
+                <mat-option value="">All</mat-option>
+                <mat-option value="admin">Admin</mat-option>
+                <mat-option value="clerk">Clerk</mat-option>
+              </mat-select>
+            </mat-form-field>
+          </span>
+        </aside>
+      </article>
+      <article
+        class="grid justify-items-center gap-8 sm:grid-cols-1 lg:grid-cols-4 lg:m-6"
+      >
+        <app-user-card
+          [profileImage]="'../../../assets/images/A1.png'"
+          [staffName]="'John Doe'"
+          [staffRoles]="['Power User', 'Field Clerk']"
+          [staffID]="12345678"
+          [staffEmail]="'johndoe@gmail.com'"
+          [vehicleRegNo]="'KDK 123A'"
+          [is_active]="true"
+        ></app-user-card>
+      </article>
+    </section>
+  </mat-tab>
+</mat-tab-group>

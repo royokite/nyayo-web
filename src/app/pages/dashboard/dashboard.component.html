@@ -1,5 +1,5 @@
-<section>
-  <article class="flex flex-wrap justify-between mb-6">
+<section class="dashboard-container">
+  <article class="flex flex-wrap justify-between">
     <app-data-card
       [title]="'REGISTERED CASUALS'"
       [number]="3458"
@@ -22,27 +22,56 @@
       [showDropdown]="true"
     ></app-data-card>
   </article>
-  <article class="flex justify-between w-full mb-6">
-    <div class="produce-data add-shadow rounded-md p-4 lg:me-6">
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt quod
-      voluptates quibusdam quo libero natus veritatis illum dolore doloremque
-      optio obcaecati ex pariatur earum in cumque nihil, perferendis quidem a
-      odio! Accusamus maiores ratione non, sequi odit vel maxime totam
-      repellendus soluta illo rem earum nostrum quibusdam dolores reiciendis
-      corrupti quidem facilis impedit sunt excepturi alias ipsa quae? Quia harum
-      ut odio, necessitatibus voluptates cupiditate iste ea tenetur! Distinctio
-      sapiente perferendis sequi laborum nulla molestiae expedita quaerat,
-      consequatur voluptatum officia! Aperiam dolorem blanditiis cumque id fuga
-      corporis dolore nisi quis, ea animi vero necessitatibus voluptatum nulla
-      quod quidem veniam numquam consectetur reiciendis delectus ex possimus
-      recusandae saepe? Excepturi eum labore ducimus nesciunt incidunt suscipit
-      recusandae sit architecto accusamus perferendis dolorum voluptatibus,
-      molestias magnam laborum aspernatur velit adipisci praesentium officiis
-      ea! Error sed ad tempore tenetur officiis quo recusandae, odio suscipit.
-      Praesentium ducimus laudantium excepturi, vero amet provident debitis
-      iusto magnam!
+  <article class="combine-data w-full mb-6">
+    <div class="chart-data add-shadow rounded-md p-4">
+      <h2 class="mb-2 text-slate-700 font-medium">SUPERVISOR COLLECTIONS</h2>
+      <aside class="flex flex-wrap">
+        <span class="mx-1">
+          <p class="text-slate-500">Period End</p>
+          <mat-form-field class="date" color="accent" appearance="outline">
+            <input
+              matInput
+              [matDatepicker]="picker"
+              (focus)="picker.open()"
+              readonly
+              placeholder="Date"
+            />
+            <mat-datepicker-toggle
+              matIconSuffix
+              [for]="picker"
+            ></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+          </mat-form-field>
+        </span>
+        <span class="mx-1">
+          <p class="text-slate-500">Zone</p>
+          <mat-form-field class="select" color="accent" appearance="outline">
+            <mat-select>
+              <mat-option value="">All</mat-option>
+              <mat-option value="embu">Embu</mat-option>
+              <mat-option value="nyeri">Nyeri</mat-option>
+              <mat-option value="muranga">Murang'a</mat-option>
+              <mat-option value="kirinyaga">Kirinyaga</mat-option>
+            </mat-select>
+          </mat-form-field>
+        </span>
+      </aside>
+      <span class="text-slate-500">Time Period</span>
+      <div class="button-group flex flex-wrap justify-between w-full my-4">
+        <button mat-raised-button>Today</button>
+        <button mat-raised-button class="period-btn" color="accent">
+          Last 5 days
+        </button>
+        <button mat-raised-button>Last 7 days</button>
+        <button mat-raised-button>Last 1 month</button>
+        <button mat-raised-button>Last 3 months</button>
+        <button mat-raised-button>Last 6 months</button>
+      </div>
+      <div>
+        <canvas id="MyChart">{{ chart }}</canvas>
+      </div>
     </div>
-    <div class="lg:w-1/3">
+    <div class="worker-data">
       <div class="add-shadow rounded-md p-4 mb-6">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci
         impedit temporibus quidem quia ea, quisquam minus sunt, cumque, sint in
