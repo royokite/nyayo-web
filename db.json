@@ -1,679 +1,683 @@
 {
-  "supervisor": [
-    {
-      "transaction_id": 20230302071,
-      "casual_id": 2023071,
-      "casual_name": "Bernadette Goodwin",
-      "total_weight": 34
-    },
-    {
-      "transaction_id": 20230302072,
-      "casual_id": 2023072,
-      "casual_name": "Petra Harrison",
-      "total_weight": 35
-    },
-    {
-      "transaction_id": 20230302073,
-      "casual_id": 2023073,
-      "casual_name": "Price Bridges",
-      "total_weight": 36
-    },
-    {
-      "transaction_id": 20230302074,
-      "casual_id": 2023074,
-      "casual_name": "Sykes Joyce",
-      "total_weight": 37
-    },
-    {
-      "transaction_id": 20230302075,
-      "casual_id": 2023075,
-      "casual_name": "Garner Strong",
-      "total_weight": 38
-    },
-    {
-      "transaction_id": 20230302076,
-      "casual_id": 2023076,
-      "casual_name": "Alyssa Castillo",
-      "total_weight": 39
-    },
-    {
-      "transaction_id": 20230302077,
-      "casual_id": 2023077,
-      "casual_name": "Mckay Banks",
-      "total_weight": 40
-    },
-    {
-      "transaction_id": 20230302078,
-      "casual_id": 2023078,
-      "casual_name": "Shari Fisher",
-      "total_weight": 41
-    },
-    {
-      "transaction_id": 20230302079,
-      "casual_id": 2023079,
-      "casual_name": "Jennings Rowe",
-      "total_weight": 42
-    },
-    {
-      "transaction_id": 20230302080,
-      "casual_id": 2023080,
-      "casual_name": "Dyer Cotton",
-      "total_weight": 43
-    },
-    {
-      "transaction_id": 20230302081,
-      "casual_id": 2023081,
-      "casual_name": "Verna Padilla",
-      "total_weight": 44
-    },
-    {
-      "transaction_id": 20230302082,
-      "casual_id": 2023082,
-      "casual_name": "Burch Trujillo",
-      "total_weight": 45
-    },
-    {
-      "transaction_id": 20230302083,
-      "casual_id": 2023083,
-      "casual_name": "Matilda Kirk",
-      "total_weight": 46
-    },
-    {
-      "transaction_id": 20230302084,
-      "casual_id": 2023084,
-      "casual_name": "Lucile Salinas",
-      "total_weight": 47
-    },
-    {
-      "transaction_id": 20230302085,
-      "casual_id": 2023085,
-      "casual_name": "Rosanna Sanford",
-      "total_weight": 48
-    }
-  ],
-  "driver": [
-    {
-      "transaction_id": 20230302071,
-      "supervisor_id": 2023071,
-      "supervisor_name": "Cecile Galloway",
-      "total_weight": 34,
-      "block_name": "Idledale"
-    },
-    {
-      "transaction_id": 20230302072,
-      "supervisor_id": 2023072,
-      "supervisor_name": "Robertson Mcconnell",
-      "total_weight": 35,
-      "block_name": "Ronco"
-    },
-    {
-      "transaction_id": 20230302073,
-      "supervisor_id": 2023073,
-      "supervisor_name": "Estella Francis",
-      "total_weight": 36,
-      "block_name": "Munjor"
-    },
-    {
-      "transaction_id": 20230302074,
-      "supervisor_id": 2023074,
-      "supervisor_name": "Conrad Saunders",
-      "total_weight": 37,
-      "block_name": "Ryderwood"
-    },
-    {
-      "transaction_id": 20230302075,
-      "supervisor_id": 2023075,
-      "supervisor_name": "Jayne Meyer",
-      "total_weight": 38,
-      "block_name": "Lund"
-    },
-    {
-      "transaction_id": 20230302076,
-      "supervisor_id": 2023076,
-      "supervisor_name": "Foley Wolf",
-      "total_weight": 39,
-      "block_name": "Detroit"
-    },
-    {
-      "transaction_id": 20230302077,
-      "supervisor_id": 2023077,
-      "supervisor_name": "Kris Richard",
-      "total_weight": 40,
-      "block_name": "Trucksville"
-    },
-    {
-      "transaction_id": 20230302078,
-      "supervisor_id": 2023078,
-      "supervisor_name": "Riggs Parker",
-      "total_weight": 41,
-      "block_name": "Weogufka"
-    },
-    {
-      "transaction_id": 20230302079,
-      "supervisor_id": 2023079,
-      "supervisor_name": "Danielle Melton",
-      "total_weight": 42,
-      "block_name": "Gadsden"
-    },
-    {
-      "transaction_id": 20230302080,
-      "supervisor_id": 2023080,
-      "supervisor_name": "Lorrie Barry",
-      "total_weight": 43,
-      "block_name": "Courtland"
-    },
-    {
-      "transaction_id": 20230302081,
-      "supervisor_id": 2023081,
-      "supervisor_name": "Keri Curry",
-      "total_weight": 44,
-      "block_name": "Somerset"
-    },
-    {
-      "transaction_id": 20230302082,
-      "supervisor_id": 2023082,
-      "supervisor_name": "Erna Briggs",
-      "total_weight": 45,
-      "block_name": "Saddlebrooke"
-    },
-    {
-      "transaction_id": 20230302083,
-      "supervisor_id": 2023083,
-      "supervisor_name": "Morse Bryant",
-      "total_weight": 46,
-      "block_name": "Dorneyville"
-    },
-    {
-      "transaction_id": 20230302084,
-      "supervisor_id": 2023084,
-      "supervisor_name": "Felecia Buckner",
-      "total_weight": 47,
-      "block_name": "Geyserville"
-    },
-    {
-      "transaction_id": 20230302085,
-      "supervisor_id": 2023085,
-      "supervisor_name": "Patterson Frederick",
-      "total_weight": 48,
-      "block_name": "Sims"
-    }
-  ],
-  "factory": [
-    {
-      "transaction_id": 20230302071,
-      "driver_id": 2023071,
-      "driver_name": "Noel Elliott",
-      "total_weight": 34,
-      "zone_name": "Centerville"
-    },
-    {
-      "transaction_id": 20230302072,
-      "driver_id": 2023072,
-      "driver_name": "Marietta Carter",
-      "total_weight": 35,
-      "zone_name": "Knowlton"
-    },
-    {
-      "transaction_id": 20230302073,
-      "driver_id": 2023073,
-      "driver_name": "Winnie Herrera",
-      "total_weight": 36,
-      "zone_name": "Fingerville"
-    },
-    {
-      "transaction_id": 20230302074,
-      "driver_id": 2023074,
-      "driver_name": "Nora Mendez",
-      "total_weight": 37,
-      "zone_name": "Westmoreland"
-    },
-    {
-      "transaction_id": 20230302075,
-      "driver_id": 2023075,
-      "driver_name": "Humphrey Mccall",
-      "total_weight": 38,
-      "zone_name": "Crisman"
-    },
-    {
-      "transaction_id": 20230302076,
-      "driver_id": 2023076,
-      "driver_name": "Bette Oneill",
-      "total_weight": 39,
-      "zone_name": "Linwood"
-    },
-    {
-      "transaction_id": 20230302077,
-      "driver_id": 2023077,
-      "driver_name": "Roach Rojas",
-      "total_weight": 40,
-      "zone_name": "Whitestone"
-    },
-    {
-      "transaction_id": 20230302078,
-      "driver_id": 2023078,
-      "driver_name": "Mendez Kramer",
-      "total_weight": 41,
-      "zone_name": "Vandiver"
-    },
-    {
-      "transaction_id": 20230302079,
-      "driver_id": 2023079,
-      "driver_name": "Shaw Flowers",
-      "total_weight": 42,
-      "zone_name": "Norwood"
-    },
-    {
-      "transaction_id": 20230302080,
-      "driver_id": 2023080,
-      "driver_name": "Sherri Wilkins",
-      "total_weight": 43,
-      "zone_name": "Bancroft"
-    },
-    {
-      "transaction_id": 20230302081,
-      "driver_id": 2023081,
-      "driver_name": "Ross Murray",
-      "total_weight": 44,
-      "zone_name": "Axis"
-    },
-    {
-      "transaction_id": 20230302082,
-      "driver_id": 2023082,
-      "driver_name": "Queen Palmer",
-      "total_weight": 45,
-      "zone_name": "Ola"
-    },
-    {
-      "transaction_id": 20230302083,
-      "driver_id": 2023083,
-      "driver_name": "Cassandra Owens",
-      "total_weight": 46,
-      "zone_name": "Dalton"
-    },
-    {
-      "transaction_id": 20230302084,
-      "driver_id": 2023084,
-      "driver_name": "Erica Hunter",
-      "total_weight": 47,
-      "zone_name": "Leland"
-    },
-    {
-      "transaction_id": 20230302085,
-      "driver_id": 2023085,
-      "driver_name": "Snyder Yang",
-      "total_weight": 48,
-      "zone_name": "Chelsea"
-    }
-  ],
-  "users": [
-    {
-      "id": 1,
-      "first_name": "John",
-      "last_name": "Doe",
-      "roles": ["admin", "field_clerk"],
-      "national_id": 12345678,
-      "email": "john.doe@example.com",
-      "status": true
-    },
-    {
-      "id": 2,
-      "first_name": "Jane",
-      "last_name": "Smith",
-      "roles": ["supervisor", "driver"],
-      "national_id": 23456789,
-      "email": "jane.smith@example.com",
-      "status": false
-    },
-    {
-      "id": 3,
-      "first_name": "Michael",
-      "last_name": "Johnson",
-      "roles": ["factory_clerk"],
-      "national_id": 34567890,
-      "email": "michael.johnson@example.com",
-      "status": true
-    },
-    {
-      "id": 4,
-      "first_name": "Emily",
-      "last_name": "Williams",
-      "roles": ["driver"],
-      "national_id": 45678901,
-      "email": "emily.williams@example.com",
-      "status": false
-    },
-    {
-      "id": 5,
-      "first_name": "David",
-      "last_name": "Brown",
-      "roles": ["supervisor", "field_clerk"],
-      "national_id": 56789012,
-      "email": "david.brown@example.com",
-      "status": true
-    },
-    {
-      "id": 6,
-      "first_name": "Olivia",
-      "last_name": "Miller",
-      "roles": ["admin", "supervisor"],
-      "national_id": 67890123,
-      "email": "olivia.miller@example.com",
-      "status": false
-    },
-    {
-      "id": 7,
-      "first_name": "William",
-      "last_name": "Jones",
-      "roles": ["field_clerk", "driver"],
-      "national_id": 78901234,
-      "email": "william.jones@example.com",
-      "status": true
-    },
-    {
-      "id": 8,
-      "first_name": "Emma",
-      "last_name": "Davis",
-      "roles": ["factory_clerk"],
-      "national_id": 89012345,
-      "email": "emma.davis@example.com",
-      "status": false
-    },
-    {
-      "id": 9,
-      "first_name": "Liam",
-      "last_name": "Garcia",
-      "roles": ["supervisor", "driver"],
-      "national_id": 90123456,
-      "email": "liam.garcia@example.com",
-      "status": true
-    },
-    {
-      "id": 10,
-      "first_name": "Ava",
-      "last_name": "Martinez",
-      "roles": ["admin"],
-      "national_id": 12345678,
-      "email": "ava.martinez@example.com",
-      "status": false
-    },
-    {
-      "id": 11,
-      "first_name": "Noah",
-      "last_name": "Lopez",
-      "roles": ["field_clerk", "supervisor"],
-      "national_id": 23456789,
-      "email": "noah.lopez@example.com",
-      "status": true
-    },
-    {
-      "id": 12,
-      "first_name": "Isabella",
-      "last_name": "Rodriguez",
-      "roles": ["driver"],
-      "national_id": 34567890,
-      "email": "isabella.rodriguez@example.com",
-      "status": false
-    },
-    {
-      "id": 13,
-      "first_name": "Sophia",
-      "last_name": "Perez",
-      "roles": ["admin", "supervisor"],
-      "national_id": 45678901,
-      "email": "sophia.perez@example.com",
-      "status": true
-    },
-    {
-      "id": 14,
-      "first_name": "Mia",
-      "last_name": "Gonzalez",
-      "roles": ["factory_clerk"],
-      "national_id": 56789012,
-      "email": "mia.gonzalez@example.com",
-      "status": false
-    },
-    {
-      "id": 15,
-      "first_name": "James",
-      "last_name": "Wilson",
-      "roles": ["driver", "supervisor"],
-      "national_id": 67890123,
-      "email": "james.wilson@example.com",
-      "status": true
-    },
-    {
-      "id": 16,
-      "first_name": "Benjamin",
-      "last_name": "Anderson",
-      "roles": ["admin"],
-      "national_id": 78901234,
-      "email": "benjamin.anderson@example.com",
-      "status": false
-    },
-    {
-      "id": 17,
-      "first_name": "Elijah",
-      "last_name": "Thomas",
-      "roles": ["field_clerk"],
-      "national_id": 89012345,
-      "email": "elijah.thomas@example.com",
-      "status": true
-    },
-    {
-      "id": 18,
-      "first_name": "Lucas",
-      "last_name": "Jackson",
-      "roles": ["supervisor"],
-      "national_id": 90123456,
-      "email": "lucas.jackson@example.com",
-      "status": false
-    },
-    {
-      "id": 19,
-      "first_name": "Alexander",
-      "last_name": "White",
-      "roles": ["driver", "factory_clerk"],
-      "national_id": 12345678,
-      "email": "alexander.white@example.com",
-      "status": true
-    },
-    {
-      "id": 20,
-      "first_name": "Ethan",
-      "last_name": "Harris",
-      "roles": ["admin"],
-      "national_id": 23456789,
-      "email": "ethan.harris@example.com",
-      "status": false
-    },
-    {
-      "id": 21,
-      "first_name": "Daniel",
-      "last_name": "Martin",
-      "roles": ["field_clerk", "supervisor"],
-      "national_id": 34567890,
-      "email": "daniel.martin@example.com",
-      "status": true
-    },
-    {
-      "id": 22,
-      "first_name": "Matthew",
-      "last_name": "Thompson",
-      "roles": ["driver"],
-      "national_id": 45678901,
-      "email": "matthew.thompson@example.com",
-      "status": false
-    },
-    {
-      "id": 23,
-      "first_name": "Henry",
-      "last_name": "Garcia",
-      "roles": ["admin", "factory_clerk"],
-      "national_id": 56789012,
-      "email": "henry.garcia@example.com",
-      "status": true
-    },
-    {
-      "id": 24,
-      "first_name": "Joseph",
-      "last_name": "Davis",
-      "roles": ["supervisor"],
-      "national_id": 67890123,
-      "email": "joseph.davis@example.com",
-      "status": false
-    },
-    {
-      "id": 25,
-      "first_name": "Olivia",
-      "last_name": "Miller",
-      "roles": ["admin", "supervisor"],
-      "national_id": 87654321,
-      "email": "olivia.miller@example.com",
-      "status": false
-    }
-  ],
-  "casuals": [
-    {
-      "casual_name": "John Doe",
-      "user_id": 20230071,
-      "national_id": 12345678,
-      "phone_number": "+254712345678",
-      "area": "embu"
-    },
-    {
-      "casual_name": "Jane Smith",
-      "user_id": 20230072,
-      "national_id": 23456789,
-      "phone_number": "+254723456789",
-      "area": "kirinyaga"
-    },
-    {
-      "casual_name": "Michael Johnson",
-      "user_id": 20230073,
-      "national_id": 34567890,
-      "phone_number": "+254734567890",
-      "area": "muranga"
-    },
-    {
-      "casual_name": "Emily Williams",
-      "user_id": 20230074,
-      "national_id": 45678901,
-      "phone_number": "+254745678901",
-      "area": "nyeri"
-    },
-    {
-      "casual_name": "David Brown",
-      "user_id": 20230075,
-      "national_id": 56789012,
-      "phone_number": "+254756789012",
-      "area": "embu"
-    },
-    {
-      "casual_name": "Olivia Miller",
-      "user_id": 20230076,
-      "national_id": 67890123,
-      "phone_number": "+254767890123",
-      "area": "kirinyaga"
-    },
-    {
-      "casual_name": "William Johnson",
-      "user_id": 20230077,
-      "national_id": 78901234,
-      "phone_number": "+254778901234",
-      "area": "muranga"
-    },
-    {
-      "casual_name": "Emma Davis",
-      "user_id": 20230078,
-      "national_id": 89012345,
-      "phone_number": "+254789012345",
-      "area": "nyeri"
-    },
-    {
-      "casual_name": "Liam Garcia",
-      "user_id": 20230079,
-      "national_id": 90123456,
-      "phone_number": "+254790123456",
-      "area": "embu"
-    },
-    {
-      "casual_name": "Ava Martinez",
-      "user_id": 20230080,
-      "national_id": 12345678,
-      "phone_number": "+254712345678",
-      "area": "kirinyaga"
-    },
-    {
-      "casual_name": "Noah Lopez",
-      "user_id": 20230081,
-      "national_id": 23456789,
-      "phone_number": "+254723456789",
-      "area": "muranga"
-    },
-    {
-      "casual_name": "Isabella Rodriguez",
-      "user_id": 20230082,
-      "national_id": 34567890,
-      "phone_number": "+254734567890",
-      "area": "nyeri"
-    },
-    {
-      "casual_name": "Sophia Perez",
-      "user_id": 20230083,
-      "national_id": 45678901,
-      "phone_number": "+254745678901",
-      "area": "embu"
-    },
-    {
-      "casual_name": "Mia Brown",
-      "user_id": 20230084,
-      "national_id": 56789012,
-      "phone_number": "+254756789012",
-      "area": "kirinyaga"
-    },
-    {
-      "casual_name": "James Davis",
-      "user_id": 20230085,
-      "national_id": 67890123,
-      "phone_number": "+254767890123",
-      "area": "muranga"
-    },
-    {
-      "casual_name": "Benjamin Martinez",
-      "user_id": 20230086,
-      "national_id": 78901234,
-      "phone_number": "+254778901234",
-      "area": "nyeri"
-    },
-    {
-      "casual_name": "Abigail Garcia",
-      "user_id": 20230087,
-      "national_id": 89012345,
-      "phone_number": "+254789012345",
-      "area": "embu"
-    },
-    {
-      "casual_name": "Elijah Lopez",
-      "user_id": 20230088,
-      "national_id": 90123456,
-      "phone_number": "+254790123456",
-      "area": "kirinyaga"
-    },
-    {
-      "casual_name": "Charlotte Rodriguez",
-      "user_id": 20230089,
-      "national_id": 12345678,
-      "phone_number": "+254712345678",
-      "area": "muranga"
-    },
-    {
-      "casual_name": "Daniel Perez",
-      "user_id": 20230090,
-      "national_id": 23456789,
-      "phone_number": "+254723456789",
-      "area": "nyeri"
-    }
-  ],
+  "collections": {
+    "supervisor": [
+      {
+        "transaction_id": 20230302071,
+        "casual_id": 2023071,
+        "casual_name": "Bernadette Goodwin",
+        "total_weight": 34
+      },
+      {
+        "transaction_id": 20230302072,
+        "casual_id": 2023072,
+        "casual_name": "Petra Harrison",
+        "total_weight": 35
+      },
+      {
+        "transaction_id": 20230302073,
+        "casual_id": 2023073,
+        "casual_name": "Price Bridges",
+        "total_weight": 36
+      },
+      {
+        "transaction_id": 20230302074,
+        "casual_id": 2023074,
+        "casual_name": "Sykes Joyce",
+        "total_weight": 37
+      },
+      {
+        "transaction_id": 20230302075,
+        "casual_id": 2023075,
+        "casual_name": "Garner Strong",
+        "total_weight": 38
+      },
+      {
+        "transaction_id": 20230302076,
+        "casual_id": 2023076,
+        "casual_name": "Alyssa Castillo",
+        "total_weight": 39
+      },
+      {
+        "transaction_id": 20230302077,
+        "casual_id": 2023077,
+        "casual_name": "Mckay Banks",
+        "total_weight": 40
+      },
+      {
+        "transaction_id": 20230302078,
+        "casual_id": 2023078,
+        "casual_name": "Shari Fisher",
+        "total_weight": 41
+      },
+      {
+        "transaction_id": 20230302079,
+        "casual_id": 2023079,
+        "casual_name": "Jennings Rowe",
+        "total_weight": 42
+      },
+      {
+        "transaction_id": 20230302080,
+        "casual_id": 2023080,
+        "casual_name": "Dyer Cotton",
+        "total_weight": 43
+      },
+      {
+        "transaction_id": 20230302081,
+        "casual_id": 2023081,
+        "casual_name": "Verna Padilla",
+        "total_weight": 44
+      },
+      {
+        "transaction_id": 20230302082,
+        "casual_id": 2023082,
+        "casual_name": "Burch Trujillo",
+        "total_weight": 45
+      },
+      {
+        "transaction_id": 20230302083,
+        "casual_id": 2023083,
+        "casual_name": "Matilda Kirk",
+        "total_weight": 46
+      },
+      {
+        "transaction_id": 20230302084,
+        "casual_id": 2023084,
+        "casual_name": "Lucile Salinas",
+        "total_weight": 47
+      },
+      {
+        "transaction_id": 20230302085,
+        "casual_id": 2023085,
+        "casual_name": "Rosanna Sanford",
+        "total_weight": 48
+      }
+    ],
+    "driver": [
+      {
+        "transaction_id": 20230302071,
+        "supervisor_id": 2023071,
+        "supervisor_name": "Cecile Galloway",
+        "total_weight": 34,
+        "block_name": "Idledale"
+      },
+      {
+        "transaction_id": 20230302072,
+        "supervisor_id": 2023072,
+        "supervisor_name": "Robertson Mcconnell",
+        "total_weight": 35,
+        "block_name": "Ronco"
+      },
+      {
+        "transaction_id": 20230302073,
+        "supervisor_id": 2023073,
+        "supervisor_name": "Estella Francis",
+        "total_weight": 36,
+        "block_name": "Munjor"
+      },
+      {
+        "transaction_id": 20230302074,
+        "supervisor_id": 2023074,
+        "supervisor_name": "Conrad Saunders",
+        "total_weight": 37,
+        "block_name": "Ryderwood"
+      },
+      {
+        "transaction_id": 20230302075,
+        "supervisor_id": 2023075,
+        "supervisor_name": "Jayne Meyer",
+        "total_weight": 38,
+        "block_name": "Lund"
+      },
+      {
+        "transaction_id": 20230302076,
+        "supervisor_id": 2023076,
+        "supervisor_name": "Foley Wolf",
+        "total_weight": 39,
+        "block_name": "Detroit"
+      },
+      {
+        "transaction_id": 20230302077,
+        "supervisor_id": 2023077,
+        "supervisor_name": "Kris Richard",
+        "total_weight": 40,
+        "block_name": "Trucksville"
+      },
+      {
+        "transaction_id": 20230302078,
+        "supervisor_id": 2023078,
+        "supervisor_name": "Riggs Parker",
+        "total_weight": 41,
+        "block_name": "Weogufka"
+      },
+      {
+        "transaction_id": 20230302079,
+        "supervisor_id": 2023079,
+        "supervisor_name": "Danielle Melton",
+        "total_weight": 42,
+        "block_name": "Gadsden"
+      },
+      {
+        "transaction_id": 20230302080,
+        "supervisor_id": 2023080,
+        "supervisor_name": "Lorrie Barry",
+        "total_weight": 43,
+        "block_name": "Courtland"
+      },
+      {
+        "transaction_id": 20230302081,
+        "supervisor_id": 2023081,
+        "supervisor_name": "Keri Curry",
+        "total_weight": 44,
+        "block_name": "Somerset"
+      },
+      {
+        "transaction_id": 20230302082,
+        "supervisor_id": 2023082,
+        "supervisor_name": "Erna Briggs",
+        "total_weight": 45,
+        "block_name": "Saddlebrooke"
+      },
+      {
+        "transaction_id": 20230302083,
+        "supervisor_id": 2023083,
+        "supervisor_name": "Morse Bryant",
+        "total_weight": 46,
+        "block_name": "Dorneyville"
+      },
+      {
+        "transaction_id": 20230302084,
+        "supervisor_id": 2023084,
+        "supervisor_name": "Felecia Buckner",
+        "total_weight": 47,
+        "block_name": "Geyserville"
+      },
+      {
+        "transaction_id": 20230302085,
+        "supervisor_id": 2023085,
+        "supervisor_name": "Patterson Frederick",
+        "total_weight": 48,
+        "block_name": "Sims"
+      }
+    ],
+    "factory": [
+      {
+        "transaction_id": 20230302071,
+        "driver_id": 2023071,
+        "driver_name": "Noel Elliott",
+        "total_weight": 34,
+        "zone_name": "Centerville"
+      },
+      {
+        "transaction_id": 20230302072,
+        "driver_id": 2023072,
+        "driver_name": "Marietta Carter",
+        "total_weight": 35,
+        "zone_name": "Knowlton"
+      },
+      {
+        "transaction_id": 20230302073,
+        "driver_id": 2023073,
+        "driver_name": "Winnie Herrera",
+        "total_weight": 36,
+        "zone_name": "Fingerville"
+      },
+      {
+        "transaction_id": 20230302074,
+        "driver_id": 2023074,
+        "driver_name": "Nora Mendez",
+        "total_weight": 37,
+        "zone_name": "Westmoreland"
+      },
+      {
+        "transaction_id": 20230302075,
+        "driver_id": 2023075,
+        "driver_name": "Humphrey Mccall",
+        "total_weight": 38,
+        "zone_name": "Crisman"
+      },
+      {
+        "transaction_id": 20230302076,
+        "driver_id": 2023076,
+        "driver_name": "Bette Oneill",
+        "total_weight": 39,
+        "zone_name": "Linwood"
+      },
+      {
+        "transaction_id": 20230302077,
+        "driver_id": 2023077,
+        "driver_name": "Roach Rojas",
+        "total_weight": 40,
+        "zone_name": "Whitestone"
+      },
+      {
+        "transaction_id": 20230302078,
+        "driver_id": 2023078,
+        "driver_name": "Mendez Kramer",
+        "total_weight": 41,
+        "zone_name": "Vandiver"
+      },
+      {
+        "transaction_id": 20230302079,
+        "driver_id": 2023079,
+        "driver_name": "Shaw Flowers",
+        "total_weight": 42,
+        "zone_name": "Norwood"
+      },
+      {
+        "transaction_id": 20230302080,
+        "driver_id": 2023080,
+        "driver_name": "Sherri Wilkins",
+        "total_weight": 43,
+        "zone_name": "Bancroft"
+      },
+      {
+        "transaction_id": 20230302081,
+        "driver_id": 2023081,
+        "driver_name": "Ross Murray",
+        "total_weight": 44,
+        "zone_name": "Axis"
+      },
+      {
+        "transaction_id": 20230302082,
+        "driver_id": 2023082,
+        "driver_name": "Queen Palmer",
+        "total_weight": 45,
+        "zone_name": "Ola"
+      },
+      {
+        "transaction_id": 20230302083,
+        "driver_id": 2023083,
+        "driver_name": "Cassandra Owens",
+        "total_weight": 46,
+        "zone_name": "Dalton"
+      },
+      {
+        "transaction_id": 20230302084,
+        "driver_id": 2023084,
+        "driver_name": "Erica Hunter",
+        "total_weight": 47,
+        "zone_name": "Leland"
+      },
+      {
+        "transaction_id": 20230302085,
+        "driver_id": 2023085,
+        "driver_name": "Snyder Yang",
+        "total_weight": 48,
+        "zone_name": "Chelsea"
+      }
+    ]
+  },
+  "users": {
+    "staff": [
+      {
+        "id": 1,
+        "first_name": "John",
+        "last_name": "Doe",
+        "roles": ["admin", "field_clerk"],
+        "national_id": 12345678,
+        "email": "john.doe@example.com",
+        "status": true
+      },
+      {
+        "id": 2,
+        "first_name": "Jane",
+        "last_name": "Smith",
+        "roles": ["supervisor", "driver"],
+        "national_id": 23456789,
+        "email": "jane.smith@example.com",
+        "status": false
+      },
+      {
+        "id": 3,
+        "first_name": "Michael",
+        "last_name": "Johnson",
+        "roles": ["factory_clerk"],
+        "national_id": 34567890,
+        "email": "michael.johnson@example.com",
+        "status": true
+      },
+      {
+        "id": 4,
+        "first_name": "Emily",
+        "last_name": "Williams",
+        "roles": ["driver"],
+        "national_id": 45678901,
+        "email": "emily.williams@example.com",
+        "status": false
+      },
+      {
+        "id": 5,
+        "first_name": "David",
+        "last_name": "Brown",
+        "roles": ["supervisor", "field_clerk"],
+        "national_id": 56789012,
+        "email": "david.brown@example.com",
+        "status": true
+      },
+      {
+        "id": 6,
+        "first_name": "Olivia",
+        "last_name": "Miller",
+        "roles": ["admin", "supervisor"],
+        "national_id": 67890123,
+        "email": "olivia.miller@example.com",
+        "status": false
+      },
+      {
+        "id": 7,
+        "first_name": "William",
+        "last_name": "Jones",
+        "roles": ["field_clerk", "driver"],
+        "national_id": 78901234,
+        "email": "william.jones@example.com",
+        "status": true
+      },
+      {
+        "id": 8,
+        "first_name": "Emma",
+        "last_name": "Davis",
+        "roles": ["factory_clerk"],
+        "national_id": 89012345,
+        "email": "emma.davis@example.com",
+        "status": false
+      },
+      {
+        "id": 9,
+        "first_name": "Liam",
+        "last_name": "Garcia",
+        "roles": ["supervisor", "driver"],
+        "national_id": 90123456,
+        "email": "liam.garcia@example.com",
+        "status": true
+      },
+      {
+        "id": 10,
+        "first_name": "Ava",
+        "last_name": "Martinez",
+        "roles": ["admin"],
+        "national_id": 12345678,
+        "email": "ava.martinez@example.com",
+        "status": false
+      },
+      {
+        "id": 11,
+        "first_name": "Noah",
+        "last_name": "Lopez",
+        "roles": ["field_clerk", "supervisor"],
+        "national_id": 23456789,
+        "email": "noah.lopez@example.com",
+        "status": true
+      },
+      {
+        "id": 12,
+        "first_name": "Isabella",
+        "last_name": "Rodriguez",
+        "roles": ["driver"],
+        "national_id": 34567890,
+        "email": "isabella.rodriguez@example.com",
+        "status": false
+      },
+      {
+        "id": 13,
+        "first_name": "Sophia",
+        "last_name": "Perez",
+        "roles": ["admin", "supervisor"],
+        "national_id": 45678901,
+        "email": "sophia.perez@example.com",
+        "status": true
+      },
+      {
+        "id": 14,
+        "first_name": "Mia",
+        "last_name": "Gonzalez",
+        "roles": ["factory_clerk"],
+        "national_id": 56789012,
+        "email": "mia.gonzalez@example.com",
+        "status": false
+      },
+      {
+        "id": 15,
+        "first_name": "James",
+        "last_name": "Wilson",
+        "roles": ["driver", "supervisor"],
+        "national_id": 67890123,
+        "email": "james.wilson@example.com",
+        "status": true
+      },
+      {
+        "id": 16,
+        "first_name": "Benjamin",
+        "last_name": "Anderson",
+        "roles": ["admin"],
+        "national_id": 78901234,
+        "email": "benjamin.anderson@example.com",
+        "status": false
+      },
+      {
+        "id": 17,
+        "first_name": "Elijah",
+        "last_name": "Thomas",
+        "roles": ["field_clerk"],
+        "national_id": 89012345,
+        "email": "elijah.thomas@example.com",
+        "status": true
+      },
+      {
+        "id": 18,
+        "first_name": "Lucas",
+        "last_name": "Jackson",
+        "roles": ["supervisor"],
+        "national_id": 90123456,
+        "email": "lucas.jackson@example.com",
+        "status": false
+      },
+      {
+        "id": 19,
+        "first_name": "Alexander",
+        "last_name": "White",
+        "roles": ["driver", "factory_clerk"],
+        "national_id": 12345678,
+        "email": "alexander.white@example.com",
+        "status": true
+      },
+      {
+        "id": 20,
+        "first_name": "Ethan",
+        "last_name": "Harris",
+        "roles": ["admin"],
+        "national_id": 23456789,
+        "email": "ethan.harris@example.com",
+        "status": false
+      },
+      {
+        "id": 21,
+        "first_name": "Daniel",
+        "last_name": "Martin",
+        "roles": ["field_clerk", "supervisor"],
+        "national_id": 34567890,
+        "email": "daniel.martin@example.com",
+        "status": true
+      },
+      {
+        "id": 22,
+        "first_name": "Matthew",
+        "last_name": "Thompson",
+        "roles": ["driver"],
+        "national_id": 45678901,
+        "email": "matthew.thompson@example.com",
+        "status": false
+      },
+      {
+        "id": 23,
+        "first_name": "Henry",
+        "last_name": "Garcia",
+        "roles": ["admin", "factory_clerk"],
+        "national_id": 56789012,
+        "email": "henry.garcia@example.com",
+        "status": true
+      },
+      {
+        "id": 24,
+        "first_name": "Joseph",
+        "last_name": "Davis",
+        "roles": ["supervisor"],
+        "national_id": 67890123,
+        "email": "joseph.davis@example.com",
+        "status": false
+      },
+      {
+        "id": 25,
+        "first_name": "Olivia",
+        "last_name": "Miller",
+        "roles": ["admin", "supervisor"],
+        "national_id": 87654321,
+        "email": "olivia.miller@example.com",
+        "status": false
+      }
+    ],
+    "casuals": [
+      {
+        "casual_name": "John Doe",
+        "user_id": 20230071,
+        "national_id": 12345678,
+        "phone_number": "+254712345678",
+        "area": "embu"
+      },
+      {
+        "casual_name": "Jane Smith",
+        "user_id": 20230072,
+        "national_id": 23456789,
+        "phone_number": "+254723456789",
+        "area": "kirinyaga"
+      },
+      {
+        "casual_name": "Michael Johnson",
+        "user_id": 20230073,
+        "national_id": 34567890,
+        "phone_number": "+254734567890",
+        "area": "muranga"
+      },
+      {
+        "casual_name": "Emily Williams",
+        "user_id": 20230074,
+        "national_id": 45678901,
+        "phone_number": "+254745678901",
+        "area": "nyeri"
+      },
+      {
+        "casual_name": "David Brown",
+        "user_id": 20230075,
+        "national_id": 56789012,
+        "phone_number": "+254756789012",
+        "area": "embu"
+      },
+      {
+        "casual_name": "Olivia Miller",
+        "user_id": 20230076,
+        "national_id": 67890123,
+        "phone_number": "+254767890123",
+        "area": "kirinyaga"
+      },
+      {
+        "casual_name": "William Johnson",
+        "user_id": 20230077,
+        "national_id": 78901234,
+        "phone_number": "+254778901234",
+        "area": "muranga"
+      },
+      {
+        "casual_name": "Emma Davis",
+        "user_id": 20230078,
+        "national_id": 89012345,
+        "phone_number": "+254789012345",
+        "area": "nyeri"
+      },
+      {
+        "casual_name": "Liam Garcia",
+        "user_id": 20230079,
+        "national_id": 90123456,
+        "phone_number": "+254790123456",
+        "area": "embu"
+      },
+      {
+        "casual_name": "Ava Martinez",
+        "user_id": 20230080,
+        "national_id": 12345678,
+        "phone_number": "+254712345678",
+        "area": "kirinyaga"
+      },
+      {
+        "casual_name": "Noah Lopez",
+        "user_id": 20230081,
+        "national_id": 23456789,
+        "phone_number": "+254723456789",
+        "area": "muranga"
+      },
+      {
+        "casual_name": "Isabella Rodriguez",
+        "user_id": 20230082,
+        "national_id": 34567890,
+        "phone_number": "+254734567890",
+        "area": "nyeri"
+      },
+      {
+        "casual_name": "Sophia Perez",
+        "user_id": 20230083,
+        "national_id": 45678901,
+        "phone_number": "+254745678901",
+        "area": "embu"
+      },
+      {
+        "casual_name": "Mia Brown",
+        "user_id": 20230084,
+        "national_id": 56789012,
+        "phone_number": "+254756789012",
+        "area": "kirinyaga"
+      },
+      {
+        "casual_name": "James Davis",
+        "user_id": 20230085,
+        "national_id": 67890123,
+        "phone_number": "+254767890123",
+        "area": "muranga"
+      },
+      {
+        "casual_name": "Benjamin Martinez",
+        "user_id": 20230086,
+        "national_id": 78901234,
+        "phone_number": "+254778901234",
+        "area": "nyeri"
+      },
+      {
+        "casual_name": "Abigail Garcia",
+        "user_id": 20230087,
+        "national_id": 89012345,
+        "phone_number": "+254789012345",
+        "area": "embu"
+      },
+      {
+        "casual_name": "Elijah Lopez",
+        "user_id": 20230088,
+        "national_id": 90123456,
+        "phone_number": "+254790123456",
+        "area": "kirinyaga"
+      },
+      {
+        "casual_name": "Charlotte Rodriguez",
+        "user_id": 20230089,
+        "national_id": 12345678,
+        "phone_number": "+254712345678",
+        "area": "muranga"
+      },
+      {
+        "casual_name": "Daniel Perez",
+        "user_id": 20230090,
+        "national_id": 23456789,
+        "phone_number": "+254723456789",
+        "area": "nyeri"
+      }
+    ]
+  },
   "payments": [
     {
       "id": 1,
