@@ -304,5 +304,1646 @@
       "total_weight": 48,
       "zone_name": "Chelsea"
     }
-  ]
+  ],
+  "users": [
+    {
+      "id": 1,
+      "first_name": "John",
+      "last_name": "Doe",
+      "roles": ["admin", "field_clerk"],
+      "national_id": 12345678,
+      "email": "john.doe@example.com",
+      "status": true
+    },
+    {
+      "id": 2,
+      "first_name": "Jane",
+      "last_name": "Smith",
+      "roles": ["supervisor", "driver"],
+      "national_id": 23456789,
+      "email": "jane.smith@example.com",
+      "status": false
+    },
+    {
+      "id": 3,
+      "first_name": "Michael",
+      "last_name": "Johnson",
+      "roles": ["factory_clerk"],
+      "national_id": 34567890,
+      "email": "michael.johnson@example.com",
+      "status": true
+    },
+    {
+      "id": 4,
+      "first_name": "Emily",
+      "last_name": "Williams",
+      "roles": ["driver"],
+      "national_id": 45678901,
+      "email": "emily.williams@example.com",
+      "status": false
+    },
+    {
+      "id": 5,
+      "first_name": "David",
+      "last_name": "Brown",
+      "roles": ["supervisor", "field_clerk"],
+      "national_id": 56789012,
+      "email": "david.brown@example.com",
+      "status": true
+    },
+    {
+      "id": 6,
+      "first_name": "Olivia",
+      "last_name": "Miller",
+      "roles": ["admin", "supervisor"],
+      "national_id": 67890123,
+      "email": "olivia.miller@example.com",
+      "status": false
+    },
+    {
+      "id": 7,
+      "first_name": "William",
+      "last_name": "Jones",
+      "roles": ["field_clerk", "driver"],
+      "national_id": 78901234,
+      "email": "william.jones@example.com",
+      "status": true
+    },
+    {
+      "id": 8,
+      "first_name": "Emma",
+      "last_name": "Davis",
+      "roles": ["factory_clerk"],
+      "national_id": 89012345,
+      "email": "emma.davis@example.com",
+      "status": false
+    },
+    {
+      "id": 9,
+      "first_name": "Liam",
+      "last_name": "Garcia",
+      "roles": ["supervisor", "driver"],
+      "national_id": 90123456,
+      "email": "liam.garcia@example.com",
+      "status": true
+    },
+    {
+      "id": 10,
+      "first_name": "Ava",
+      "last_name": "Martinez",
+      "roles": ["admin"],
+      "national_id": 12345678,
+      "email": "ava.martinez@example.com",
+      "status": false
+    },
+    {
+      "id": 11,
+      "first_name": "Noah",
+      "last_name": "Lopez",
+      "roles": ["field_clerk", "supervisor"],
+      "national_id": 23456789,
+      "email": "noah.lopez@example.com",
+      "status": true
+    },
+    {
+      "id": 12,
+      "first_name": "Isabella",
+      "last_name": "Rodriguez",
+      "roles": ["driver"],
+      "national_id": 34567890,
+      "email": "isabella.rodriguez@example.com",
+      "status": false
+    },
+    {
+      "id": 13,
+      "first_name": "Sophia",
+      "last_name": "Perez",
+      "roles": ["admin", "supervisor"],
+      "national_id": 45678901,
+      "email": "sophia.perez@example.com",
+      "status": true
+    },
+    {
+      "id": 14,
+      "first_name": "Mia",
+      "last_name": "Gonzalez",
+      "roles": ["factory_clerk"],
+      "national_id": 56789012,
+      "email": "mia.gonzalez@example.com",
+      "status": false
+    },
+    {
+      "id": 15,
+      "first_name": "James",
+      "last_name": "Wilson",
+      "roles": ["driver", "supervisor"],
+      "national_id": 67890123,
+      "email": "james.wilson@example.com",
+      "status": true
+    },
+    {
+      "id": 16,
+      "first_name": "Benjamin",
+      "last_name": "Anderson",
+      "roles": ["admin"],
+      "national_id": 78901234,
+      "email": "benjamin.anderson@example.com",
+      "status": false
+    },
+    {
+      "id": 17,
+      "first_name": "Elijah",
+      "last_name": "Thomas",
+      "roles": ["field_clerk"],
+      "national_id": 89012345,
+      "email": "elijah.thomas@example.com",
+      "status": true
+    },
+    {
+      "id": 18,
+      "first_name": "Lucas",
+      "last_name": "Jackson",
+      "roles": ["supervisor"],
+      "national_id": 90123456,
+      "email": "lucas.jackson@example.com",
+      "status": false
+    },
+    {
+      "id": 19,
+      "first_name": "Alexander",
+      "last_name": "White",
+      "roles": ["driver", "factory_clerk"],
+      "national_id": 12345678,
+      "email": "alexander.white@example.com",
+      "status": true
+    },
+    {
+      "id": 20,
+      "first_name": "Ethan",
+      "last_name": "Harris",
+      "roles": ["admin"],
+      "national_id": 23456789,
+      "email": "ethan.harris@example.com",
+      "status": false
+    },
+    {
+      "id": 21,
+      "first_name": "Daniel",
+      "last_name": "Martin",
+      "roles": ["field_clerk", "supervisor"],
+      "national_id": 34567890,
+      "email": "daniel.martin@example.com",
+      "status": true
+    },
+    {
+      "id": 22,
+      "first_name": "Matthew",
+      "last_name": "Thompson",
+      "roles": ["driver"],
+      "national_id": 45678901,
+      "email": "matthew.thompson@example.com",
+      "status": false
+    },
+    {
+      "id": 23,
+      "first_name": "Henry",
+      "last_name": "Garcia",
+      "roles": ["admin", "factory_clerk"],
+      "national_id": 56789012,
+      "email": "henry.garcia@example.com",
+      "status": true
+    },
+    {
+      "id": 24,
+      "first_name": "Joseph",
+      "last_name": "Davis",
+      "roles": ["supervisor"],
+      "national_id": 67890123,
+      "email": "joseph.davis@example.com",
+      "status": false
+    },
+    {
+      "id": 25,
+      "first_name": "Olivia",
+      "last_name": "Miller",
+      "roles": ["admin", "supervisor"],
+      "national_id": 87654321,
+      "email": "olivia.miller@example.com",
+      "status": false
+    }
+  ],
+  "casuals": [
+    {
+      "casual_name": "John Doe",
+      "user_id": 20230071,
+      "national_id": 12345678,
+      "phone_number": "+254712345678",
+      "area": "embu"
+    },
+    {
+      "casual_name": "Jane Smith",
+      "user_id": 20230072,
+      "national_id": 23456789,
+      "phone_number": "+254723456789",
+      "area": "kirinyaga"
+    },
+    {
+      "casual_name": "Michael Johnson",
+      "user_id": 20230073,
+      "national_id": 34567890,
+      "phone_number": "+254734567890",
+      "area": "muranga"
+    },
+    {
+      "casual_name": "Emily Williams",
+      "user_id": 20230074,
+      "national_id": 45678901,
+      "phone_number": "+254745678901",
+      "area": "nyeri"
+    },
+    {
+      "casual_name": "David Brown",
+      "user_id": 20230075,
+      "national_id": 56789012,
+      "phone_number": "+254756789012",
+      "area": "embu"
+    },
+    {
+      "casual_name": "Olivia Miller",
+      "user_id": 20230076,
+      "national_id": 67890123,
+      "phone_number": "+254767890123",
+      "area": "kirinyaga"
+    },
+    {
+      "casual_name": "William Johnson",
+      "user_id": 20230077,
+      "national_id": 78901234,
+      "phone_number": "+254778901234",
+      "area": "muranga"
+    },
+    {
+      "casual_name": "Emma Davis",
+      "user_id": 20230078,
+      "national_id": 89012345,
+      "phone_number": "+254789012345",
+      "area": "nyeri"
+    },
+    {
+      "casual_name": "Liam Garcia",
+      "user_id": 20230079,
+      "national_id": 90123456,
+      "phone_number": "+254790123456",
+      "area": "embu"
+    },
+    {
+      "casual_name": "Ava Martinez",
+      "user_id": 20230080,
+      "national_id": 12345678,
+      "phone_number": "+254712345678",
+      "area": "kirinyaga"
+    },
+    {
+      "casual_name": "Noah Lopez",
+      "user_id": 20230081,
+      "national_id": 23456789,
+      "phone_number": "+254723456789",
+      "area": "muranga"
+    },
+    {
+      "casual_name": "Isabella Rodriguez",
+      "user_id": 20230082,
+      "national_id": 34567890,
+      "phone_number": "+254734567890",
+      "area": "nyeri"
+    },
+    {
+      "casual_name": "Sophia Perez",
+      "user_id": 20230083,
+      "national_id": 45678901,
+      "phone_number": "+254745678901",
+      "area": "embu"
+    },
+    {
+      "casual_name": "Mia Brown",
+      "user_id": 20230084,
+      "national_id": 56789012,
+      "phone_number": "+254756789012",
+      "area": "kirinyaga"
+    },
+    {
+      "casual_name": "James Davis",
+      "user_id": 20230085,
+      "national_id": 67890123,
+      "phone_number": "+254767890123",
+      "area": "muranga"
+    },
+    {
+      "casual_name": "Benjamin Martinez",
+      "user_id": 20230086,
+      "national_id": 78901234,
+      "phone_number": "+254778901234",
+      "area": "nyeri"
+    },
+    {
+      "casual_name": "Abigail Garcia",
+      "user_id": 20230087,
+      "national_id": 89012345,
+      "phone_number": "+254789012345",
+      "area": "embu"
+    },
+    {
+      "casual_name": "Elijah Lopez",
+      "user_id": 20230088,
+      "national_id": 90123456,
+      "phone_number": "+254790123456",
+      "area": "kirinyaga"
+    },
+    {
+      "casual_name": "Charlotte Rodriguez",
+      "user_id": 20230089,
+      "national_id": 12345678,
+      "phone_number": "+254712345678",
+      "area": "muranga"
+    },
+    {
+      "casual_name": "Daniel Perez",
+      "user_id": 20230090,
+      "national_id": 23456789,
+      "phone_number": "+254723456789",
+      "area": "nyeri"
+    }
+  ],
+  "payments": [
+    {
+      "id": 1,
+      "casual_name": "Jeffy McKague",
+      "collection_value": 56,
+      "payment_rate": 11,
+      "payment_value": 616,
+      "payment_status": "paid"
+    },
+    {
+      "id": 2,
+      "casual_name": "Beth Mayhou",
+      "collection_value": 33,
+      "payment_rate": 12,
+      "payment_value": 396,
+      "payment_status": "paid"
+    },
+    {
+      "id": 3,
+      "casual_name": "Cesare Boost",
+      "collection_value": 90,
+      "payment_rate": 13,
+      "payment_value": 1170,
+      "payment_status": "paid"
+    },
+    {
+      "id": 4,
+      "casual_name": "Panchito Duell",
+      "collection_value": 79,
+      "payment_rate": 13,
+      "payment_value": 1027,
+      "payment_status": "pending"
+    },
+    {
+      "id": 5,
+      "casual_name": "Francois Wooderson",
+      "collection_value": 26,
+      "payment_rate": 14,
+      "payment_value": 364,
+      "payment_status": "pending"
+    },
+    {
+      "id": 6,
+      "casual_name": "Bab Toulson",
+      "collection_value": 86,
+      "payment_rate": 14,
+      "payment_value": 1204,
+      "payment_status": "failed"
+    },
+    {
+      "id": 7,
+      "casual_name": "Kylie Dever",
+      "collection_value": 49,
+      "payment_rate": 14,
+      "payment_value": 686,
+      "payment_status": "paid"
+    },
+    {
+      "id": 8,
+      "casual_name": "Herminia Fittes",
+      "collection_value": 93,
+      "payment_rate": 11,
+      "payment_value": 1023,
+      "payment_status": "paid"
+    },
+    {
+      "id": 9,
+      "casual_name": "Ulises Craxford",
+      "collection_value": 95,
+      "payment_rate": 13,
+      "payment_value": 1235,
+      "payment_status": "paid"
+    },
+    {
+      "id": 10,
+      "casual_name": "Jeannie O' Bee",
+      "collection_value": 39,
+      "payment_rate": 12,
+      "payment_value": 468,
+      "payment_status": "pending"
+    },
+    {
+      "id": 11,
+      "casual_name": "Niko Joselson",
+      "collection_value": 75,
+      "payment_rate": 12,
+      "payment_value": 900,
+      "payment_status": "pending"
+    },
+    {
+      "id": 12,
+      "casual_name": "Farly Lichfield",
+      "collection_value": 25,
+      "payment_rate": 12,
+      "payment_value": 300,
+      "payment_status": "pending"
+    },
+    {
+      "id": 13,
+      "casual_name": "Ayn Ionesco",
+      "collection_value": 97,
+      "payment_rate": 14,
+      "payment_value": 1358,
+      "payment_status": "pending"
+    },
+    {
+      "id": 14,
+      "casual_name": "Shayna Klambt",
+      "collection_value": 55,
+      "payment_rate": 12,
+      "payment_value": 660,
+      "payment_status": "pending"
+    },
+    {
+      "id": 15,
+      "casual_name": "Ted Raatz",
+      "collection_value": 65,
+      "payment_rate": 12,
+      "payment_value": 780,
+      "payment_status": "failed"
+    },
+    {
+      "id": 16,
+      "casual_name": "Gregg Poli",
+      "collection_value": 92,
+      "payment_rate": 10,
+      "payment_value": 920,
+      "payment_status": "paid"
+    },
+    {
+      "id": 17,
+      "casual_name": "Edna Pomphrett",
+      "collection_value": 78,
+      "payment_rate": 11,
+      "payment_value": 858,
+      "payment_status": "pending"
+    },
+    {
+      "id": 18,
+      "casual_name": "Kessiah Cargill",
+      "collection_value": 21,
+      "payment_rate": 13,
+      "payment_value": 273,
+      "payment_status": "failed"
+    },
+    {
+      "id": 19,
+      "casual_name": "Colman Munning",
+      "collection_value": 23,
+      "payment_rate": 12,
+      "payment_value": 276,
+      "payment_status": "failed"
+    },
+    {
+      "id": 20,
+      "casual_name": "Michele Titmarsh",
+      "collection_value": 49,
+      "payment_rate": 11,
+      "payment_value": 539,
+      "payment_status": "paid"
+    },
+    {
+      "id": 21,
+      "casual_name": "Gilberta Benion",
+      "collection_value": 60,
+      "payment_rate": 14,
+      "payment_value": 840,
+      "payment_status": "pending"
+    },
+    {
+      "id": 22,
+      "casual_name": "Maurene Conneely",
+      "collection_value": 98,
+      "payment_rate": 13,
+      "payment_value": 1274,
+      "payment_status": "pending"
+    },
+    {
+      "id": 23,
+      "casual_name": "Brant Giacopelo",
+      "collection_value": 59,
+      "payment_rate": 10,
+      "payment_value": 590,
+      "payment_status": "pending"
+    },
+    {
+      "id": 24,
+      "casual_name": "Alysa Wooffitt",
+      "collection_value": 37,
+      "payment_rate": 10,
+      "payment_value": 370,
+      "payment_status": "paid"
+    },
+    {
+      "id": 25,
+      "casual_name": "Erinn Forlong",
+      "collection_value": 29,
+      "payment_rate": 15,
+      "payment_value": 435,
+      "payment_status": "paid"
+    },
+    {
+      "id": 26,
+      "casual_name": "Sibeal Byrkmyr",
+      "collection_value": 66,
+      "payment_rate": 12,
+      "payment_value": 792,
+      "payment_status": "paid"
+    },
+    {
+      "id": 27,
+      "casual_name": "Melany Rouke",
+      "collection_value": 41,
+      "payment_rate": 15,
+      "payment_value": 615,
+      "payment_status": "paid"
+    },
+    {
+      "id": 28,
+      "casual_name": "Keary Rasell",
+      "collection_value": 21,
+      "payment_rate": 14,
+      "payment_value": 294,
+      "payment_status": "paid"
+    },
+    {
+      "id": 29,
+      "casual_name": "Sigrid Brixey",
+      "collection_value": 92,
+      "payment_rate": 11,
+      "payment_value": 1012,
+      "payment_status": "paid"
+    },
+    {
+      "id": 30,
+      "casual_name": "Tyrone Rumens",
+      "collection_value": 43,
+      "payment_rate": 13,
+      "payment_value": 559,
+      "payment_status": "failed"
+    }
+  ],
+  "reports": {
+    "area": [
+      {
+        "id": 1,
+        "date": "2023-07-18T10:02:22Z",
+        "green_leaf": 3000,
+        "field_weight": 2492,
+        "factory_weight": 1883,
+        "fac_over_field": 0,
+        "fac_over_gl": 0.6276666667
+      },
+      {
+        "id": 2,
+        "date": "2023-08-02T14:07:32Z",
+        "green_leaf": 3500,
+        "field_weight": 2932,
+        "factory_weight": 1957,
+        "fac_over_field": 0,
+        "fac_over_gl": 0.5591428571
+      },
+      {
+        "id": 3,
+        "date": "2023-08-01T22:25:55Z",
+        "green_leaf": 3000,
+        "field_weight": 2003,
+        "factory_weight": 2868,
+        "fac_over_field": 1,
+        "fac_over_gl": 0.956
+      },
+      {
+        "id": 4,
+        "date": "2023-06-02T03:05:40Z",
+        "green_leaf": 3000,
+        "field_weight": 1670,
+        "factory_weight": 2221,
+        "fac_over_field": 1,
+        "fac_over_gl": 0.7403333333
+      },
+      {
+        "id": 5,
+        "date": "2023-04-26T08:01:23Z",
+        "green_leaf": 3000,
+        "field_weight": 2847,
+        "factory_weight": 1551,
+        "fac_over_field": 0,
+        "fac_over_gl": 0.517
+      },
+      {
+        "id": 6,
+        "date": "2023-04-25T05:25:00Z",
+        "green_leaf": 3000,
+        "field_weight": 2643,
+        "factory_weight": 2361,
+        "fac_over_field": 0,
+        "fac_over_gl": 0.787
+      },
+      {
+        "id": 7,
+        "date": "2023-02-15T20:35:09Z",
+        "green_leaf": 3000,
+        "field_weight": 2724,
+        "factory_weight": 2832,
+        "fac_over_field": 1,
+        "fac_over_gl": 0.944
+      },
+      {
+        "id": 8,
+        "date": "2023-05-21T22:08:53Z",
+        "green_leaf": 3000,
+        "field_weight": 1693,
+        "factory_weight": 2472,
+        "fac_over_field": 1,
+        "fac_over_gl": 0.824
+      },
+      {
+        "id": 9,
+        "date": "2023-03-17T11:13:41Z",
+        "green_leaf": 3000,
+        "field_weight": 2409,
+        "factory_weight": 2859,
+        "fac_over_field": 1,
+        "fac_over_gl": 0.953
+      },
+      {
+        "id": 10,
+        "date": "2023-01-06T00:35:15Z",
+        "green_leaf": 3000,
+        "field_weight": 2833,
+        "factory_weight": 2222,
+        "fac_over_field": 0,
+        "fac_over_gl": 0.7406666667
+      },
+      {
+        "id": 11,
+        "date": "2022-12-28T23:07:06Z",
+        "green_leaf": 3000,
+        "field_weight": 2170,
+        "factory_weight": 2616,
+        "fac_over_field": 1,
+        "fac_over_gl": 0.872
+      },
+      {
+        "id": 12,
+        "date": "2023-08-20T07:29:33Z",
+        "green_leaf": 3500,
+        "field_weight": 2353,
+        "factory_weight": 1521,
+        "fac_over_field": 0,
+        "fac_over_gl": 0.4345714286
+      },
+      {
+        "id": 13,
+        "date": "2023-02-17T01:45:25Z",
+        "green_leaf": 3000,
+        "field_weight": 2593,
+        "factory_weight": 1750,
+        "fac_over_field": 0,
+        "fac_over_gl": 0.5833333333
+      },
+      {
+        "id": 14,
+        "date": "2023-07-24T03:10:23Z",
+        "green_leaf": 3500,
+        "field_weight": 2602,
+        "factory_weight": 1947,
+        "fac_over_field": 0,
+        "fac_over_gl": 0.5562857143
+      },
+      {
+        "id": 15,
+        "date": "2022-09-23T06:51:32Z",
+        "green_leaf": 3500,
+        "field_weight": 1504,
+        "factory_weight": 2878,
+        "fac_over_field": 1,
+        "fac_over_gl": 0.8222857143
+      },
+      {
+        "id": 16,
+        "date": "2023-04-24T10:28:20Z",
+        "green_leaf": 3000,
+        "field_weight": 2893,
+        "factory_weight": 1831,
+        "fac_over_field": 0,
+        "fac_over_gl": 0.6103333333
+      },
+      {
+        "id": 17,
+        "date": "2022-12-18T20:25:58Z",
+        "green_leaf": 3000,
+        "field_weight": 2377,
+        "factory_weight": 1917,
+        "fac_over_field": 0,
+        "fac_over_gl": 0.639
+      },
+      {
+        "id": 18,
+        "date": "2023-07-12T16:42:16Z",
+        "green_leaf": 3500,
+        "field_weight": 1519,
+        "factory_weight": 1800,
+        "fac_over_field": 1,
+        "fac_over_gl": 0.5142857143
+      },
+      {
+        "id": 19,
+        "date": "2023-04-27T02:24:18Z",
+        "green_leaf": 3500,
+        "field_weight": 1890,
+        "factory_weight": 2997,
+        "fac_over_field": 1,
+        "fac_over_gl": 0.8562857143
+      },
+      {
+        "id": 20,
+        "date": "2023-08-12T01:36:25Z",
+        "green_leaf": 3000,
+        "field_weight": 2675,
+        "factory_weight": 2607,
+        "fac_over_field": 0,
+        "fac_over_gl": 0.869
+      },
+      {
+        "id": 21,
+        "date": "2023-06-16T13:14:18Z",
+        "green_leaf": 3000,
+        "field_weight": 1990,
+        "factory_weight": 2701,
+        "fac_over_field": 1,
+        "fac_over_gl": 0.9003333333
+      },
+      {
+        "id": 22,
+        "date": "2022-10-18T15:51:50Z",
+        "green_leaf": 3500,
+        "field_weight": 2316,
+        "factory_weight": 2245,
+        "fac_over_field": 0,
+        "fac_over_gl": 0.6414285714
+      },
+      {
+        "id": 23,
+        "date": "2023-07-01T06:41:52Z",
+        "green_leaf": 3000,
+        "field_weight": 1630,
+        "factory_weight": 2201,
+        "fac_over_field": 1,
+        "fac_over_gl": 0.7336666667
+      },
+      {
+        "id": 24,
+        "date": "2022-09-07T22:00:00Z",
+        "green_leaf": 3000,
+        "field_weight": 2620,
+        "factory_weight": 1551,
+        "fac_over_field": 0,
+        "fac_over_gl": 0.517
+      },
+      {
+        "id": 25,
+        "date": "2023-03-09T19:26:12Z",
+        "green_leaf": 3000,
+        "field_weight": 1518,
+        "factory_weight": 1854,
+        "fac_over_field": 1,
+        "fac_over_gl": 0.618
+      },
+      {
+        "id": 26,
+        "date": "2023-05-04T06:34:10Z",
+        "green_leaf": 3000,
+        "field_weight": 2897,
+        "factory_weight": 2175,
+        "fac_over_field": 0,
+        "fac_over_gl": 0.725
+      },
+      {
+        "id": 27,
+        "date": "2023-04-04T11:48:13Z",
+        "green_leaf": 3000,
+        "field_weight": 2335,
+        "factory_weight": 2702,
+        "fac_over_field": 1,
+        "fac_over_gl": 0.9006666667
+      },
+      {
+        "id": 28,
+        "date": "2022-11-17T11:24:29Z",
+        "green_leaf": 3000,
+        "field_weight": 2917,
+        "factory_weight": 2735,
+        "fac_over_field": 0,
+        "fac_over_gl": 0.9116666667
+      },
+      {
+        "id": 29,
+        "date": "2023-05-28T21:23:10Z",
+        "green_leaf": 3000,
+        "field_weight": 1988,
+        "factory_weight": 2800,
+        "fac_over_field": 1,
+        "fac_over_gl": 0.9333333333
+      },
+      {
+        "id": 30,
+        "date": "2023-06-24T01:48:29Z",
+        "green_leaf": 3000,
+        "field_weight": 1893,
+        "factory_weight": 2554,
+        "fac_over_field": 1,
+        "fac_over_gl": 0.8513333333
+      }
+    ],
+    "casual": [
+      {
+        "id": 1,
+        "casual_name": "Brnaby Reef",
+        "block_name": "gatitu",
+        "contract_status": "casual",
+        "total_collection": 68
+      },
+      {
+        "id": 2,
+        "casual_name": "Domeniga Kellett",
+        "block_name": "gatitu",
+        "contract_status": "casual",
+        "total_collection": 67
+      },
+      {
+        "id": 3,
+        "casual_name": "Dory Mogie",
+        "block_name": "kimende",
+        "contract_status": "casual",
+        "total_collection": 63
+      },
+      {
+        "id": 4,
+        "casual_name": "Ferris Latty",
+        "block_name": "kiondori",
+        "contract_status": "casual",
+        "total_collection": 65
+      },
+      {
+        "id": 5,
+        "casual_name": "Murdoch Jentgens",
+        "block_name": "mukengeria",
+        "contract_status": "casual",
+        "total_collection": 41
+      },
+      {
+        "id": 6,
+        "casual_name": "Cassaundra Baff",
+        "block_name": "kimende",
+        "contract_status": "contract",
+        "total_collection": 44
+      },
+      {
+        "id": 7,
+        "casual_name": "Nicolais Audry",
+        "block_name": "gatitu",
+        "contract_status": "contract",
+        "total_collection": 53
+      },
+      {
+        "id": 8,
+        "casual_name": "Cherlyn Elliman",
+        "block_name": "gatitu",
+        "contract_status": "casual",
+        "total_collection": 39
+      },
+      {
+        "id": 9,
+        "casual_name": "Normie Elleton",
+        "block_name": "kiondori",
+        "contract_status": "casual",
+        "total_collection": 44
+      },
+      {
+        "id": 10,
+        "casual_name": "Kandace Erickssen",
+        "block_name": "gatitu",
+        "contract_status": "casual",
+        "total_collection": 73
+      },
+      {
+        "id": 11,
+        "casual_name": "Nan Van de Vlies",
+        "block_name": "kiondori",
+        "contract_status": "contract",
+        "total_collection": 54
+      },
+      {
+        "id": 12,
+        "casual_name": "Georgy Teliga",
+        "block_name": "kiondori",
+        "contract_status": "contract",
+        "total_collection": 43
+      },
+      {
+        "id": 13,
+        "casual_name": "Bunnie Hylton",
+        "block_name": "mukengeria",
+        "contract_status": "casual",
+        "total_collection": 57
+      },
+      {
+        "id": 14,
+        "casual_name": "Guilbert Gethins",
+        "block_name": "mwendia",
+        "contract_status": "casual",
+        "total_collection": 50
+      },
+      {
+        "id": 15,
+        "casual_name": "Colet Colledge",
+        "block_name": "kiondori",
+        "contract_status": "contract",
+        "total_collection": 36
+      },
+      {
+        "id": 16,
+        "casual_name": "Meredeth Clampe",
+        "block_name": "kimende",
+        "contract_status": "casual",
+        "total_collection": 52
+      },
+      {
+        "id": 17,
+        "casual_name": "Emilee Arnoldi",
+        "block_name": "gatitu",
+        "contract_status": "casual",
+        "total_collection": 57
+      },
+      {
+        "id": 18,
+        "casual_name": "Frederick Gianettini",
+        "block_name": "kiondori",
+        "contract_status": "casual",
+        "total_collection": 61
+      },
+      {
+        "id": 19,
+        "casual_name": "Claretta Stagge",
+        "block_name": "kimende",
+        "contract_status": "contract",
+        "total_collection": 58
+      },
+      {
+        "id": 20,
+        "casual_name": "Madelon Gaishson",
+        "block_name": "mukengeria",
+        "contract_status": "casual",
+        "total_collection": 41
+      },
+      {
+        "id": 21,
+        "casual_name": "Nicola Ashburner",
+        "block_name": "kimende",
+        "contract_status": "casual",
+        "total_collection": 35
+      },
+      {
+        "id": 22,
+        "casual_name": "Leslie Jobke",
+        "block_name": "kimende",
+        "contract_status": "casual",
+        "total_collection": 43
+      },
+      {
+        "id": 23,
+        "casual_name": "Delores Hessentaler",
+        "block_name": "kiondori",
+        "contract_status": "casual",
+        "total_collection": 80
+      },
+      {
+        "id": 24,
+        "casual_name": "Isidore Flounders",
+        "block_name": "mukengeria",
+        "contract_status": "contract",
+        "total_collection": 38
+      },
+      {
+        "id": 25,
+        "casual_name": "Berke Josham",
+        "block_name": "mwendia",
+        "contract_status": "casual",
+        "total_collection": 49
+      },
+      {
+        "id": 26,
+        "casual_name": "Iolanthe Noe",
+        "block_name": "kiondori",
+        "contract_status": "casual",
+        "total_collection": 38
+      },
+      {
+        "id": 27,
+        "casual_name": "Tish Lodge",
+        "block_name": "mukengeria",
+        "contract_status": "casual",
+        "total_collection": 74
+      },
+      {
+        "id": 28,
+        "casual_name": "Worth Soonhouse",
+        "block_name": "mukengeria",
+        "contract_status": "contract",
+        "total_collection": 73
+      },
+      {
+        "id": 29,
+        "casual_name": "Chanda Nangle",
+        "block_name": "mukengeria",
+        "contract_status": "casual",
+        "total_collection": 48
+      },
+      {
+        "id": 30,
+        "casual_name": "Marnie McGaughey",
+        "block_name": "mukengeria",
+        "contract_status": "contract",
+        "total_collection": 45
+      }
+    ],
+    "supervisor": [
+      {
+        "id": 1,
+        "supervisor_name": "Baryram Tingly",
+        "block_name": "Mukengeria",
+        "area": 69,
+        "contract_status": "Casual",
+        "period_targets": 3167,
+        "period_actuals": 3436,
+        "variance": -269,
+        "achieved": 108
+      },
+      {
+        "id": 2,
+        "supervisor_name": "Augustin Alven",
+        "block_name": "Gatitu",
+        "area": 46,
+        "contract_status": "Casual",
+        "period_targets": 3646,
+        "period_actuals": 3439,
+        "variance": 207,
+        "achieved": 94
+      },
+      {
+        "id": 3,
+        "supervisor_name": "Tiffie Edgar",
+        "block_name": "Gatitu",
+        "area": 20,
+        "contract_status": "Permanent",
+        "period_targets": 3003,
+        "period_actuals": 3473,
+        "variance": -470,
+        "achieved": 115
+      },
+      {
+        "id": 4,
+        "supervisor_name": "Osborne Pridmore",
+        "block_name": "Mukengeria",
+        "area": 26,
+        "contract_status": "Casual",
+        "period_targets": 3344,
+        "period_actuals": 2623,
+        "variance": 721,
+        "achieved": 78
+      },
+      {
+        "id": 5,
+        "supervisor_name": "Neda Easun",
+        "block_name": "Gatitu",
+        "area": 32,
+        "contract_status": "Casual",
+        "period_targets": 3463,
+        "period_actuals": 2367,
+        "variance": 1096,
+        "achieved": 68
+      },
+      {
+        "id": 6,
+        "supervisor_name": "Lesya Smooth",
+        "block_name": "Kiongori",
+        "area": 29,
+        "contract_status": "Permanent",
+        "period_targets": 3695,
+        "period_actuals": 2382,
+        "variance": 1313,
+        "achieved": 64
+      },
+      {
+        "id": 7,
+        "supervisor_name": "Salem Mityashev",
+        "block_name": "Mwerua",
+        "area": 26,
+        "contract_status": "Permanent",
+        "period_targets": 3075,
+        "period_actuals": 2513,
+        "variance": 562,
+        "achieved": 81
+      },
+      {
+        "id": 8,
+        "supervisor_name": "Darci Potteril",
+        "block_name": "Gatitu",
+        "area": 39,
+        "contract_status": "Permanent",
+        "period_targets": 3691,
+        "period_actuals": 2408,
+        "variance": 1283,
+        "achieved": 65
+      },
+      {
+        "id": 9,
+        "supervisor_name": "Hogan Erbe",
+        "block_name": "Mukengeria",
+        "area": 30,
+        "contract_status": "Permanent",
+        "period_targets": 2661,
+        "period_actuals": 3446,
+        "variance": -785,
+        "achieved": 129
+      },
+      {
+        "id": 10,
+        "supervisor_name": "Luce Castanyer",
+        "block_name": "Kiongori",
+        "area": 58,
+        "contract_status": "Permanent",
+        "period_targets": 3652,
+        "period_actuals": 2524,
+        "variance": 1128,
+        "achieved": 69
+      },
+      {
+        "id": 11,
+        "supervisor_name": "Parke Kenton",
+        "block_name": "Mukengeria",
+        "area": 54,
+        "contract_status": "Casual",
+        "period_targets": 3641,
+        "period_actuals": 2412,
+        "variance": 1229,
+        "achieved": 66
+      },
+      {
+        "id": 12,
+        "supervisor_name": "Rex Czajkowska",
+        "block_name": "Kimende",
+        "area": 56,
+        "contract_status": "Casual",
+        "period_targets": 2911,
+        "period_actuals": 2263,
+        "variance": 648,
+        "achieved": 77
+      },
+      {
+        "id": 13,
+        "supervisor_name": "Leelah Morsley",
+        "block_name": "Mwendia",
+        "area": 50,
+        "contract_status": "Casual",
+        "period_targets": 2641,
+        "period_actuals": 2969,
+        "variance": -328,
+        "achieved": 112
+      },
+      {
+        "id": 14,
+        "supervisor_name": "Zeke Deverall",
+        "block_name": "Mukengeria",
+        "area": 68,
+        "contract_status": "Casual",
+        "period_targets": 3029,
+        "period_actuals": 2661,
+        "variance": 368,
+        "achieved": 87
+      },
+      {
+        "id": 15,
+        "supervisor_name": "Nikkie Halwell",
+        "block_name": "Gatitu",
+        "area": 41,
+        "contract_status": "Permanent",
+        "period_targets": 2615,
+        "period_actuals": 2368,
+        "variance": 247,
+        "achieved": 90
+      },
+      {
+        "id": 16,
+        "supervisor_name": "Dione Robrose",
+        "block_name": "Mwerua",
+        "area": 56,
+        "contract_status": "Casual",
+        "period_targets": 2603,
+        "period_actuals": 3454,
+        "variance": -851,
+        "achieved": 132
+      },
+      {
+        "id": 17,
+        "supervisor_name": "Bryn Asken",
+        "block_name": "Gatitu",
+        "area": 67,
+        "contract_status": "Casual",
+        "period_targets": 2644,
+        "period_actuals": 2928,
+        "variance": -284,
+        "achieved": 110
+      },
+      {
+        "id": 18,
+        "supervisor_name": "Jesus Holyland",
+        "block_name": "Kimende",
+        "area": 31,
+        "contract_status": "Casual",
+        "period_targets": 2457,
+        "period_actuals": 2439,
+        "variance": 18,
+        "achieved": 99
+      },
+      {
+        "id": 19,
+        "supervisor_name": "Zia Mecchi",
+        "block_name": "Kimende",
+        "area": 58,
+        "contract_status": "Permanent",
+        "period_targets": 3566,
+        "period_actuals": 3258,
+        "variance": 308,
+        "achieved": 91
+      },
+      {
+        "id": 20,
+        "supervisor_name": "Zach MacGregor",
+        "block_name": "Mukengeria",
+        "area": 30,
+        "contract_status": "Permanent",
+        "period_targets": 2253,
+        "period_actuals": 2279,
+        "variance": -26,
+        "achieved": 101
+      },
+      {
+        "id": 21,
+        "supervisor_name": "Tommie Churchouse",
+        "block_name": "Gatitu",
+        "area": 34,
+        "contract_status": "Contract",
+        "period_targets": 2795,
+        "period_actuals": 2684,
+        "variance": 111,
+        "achieved": 96
+      },
+      {
+        "id": 22,
+        "supervisor_name": "Lauraine Agostini",
+        "block_name": "Mwerua",
+        "area": 52,
+        "contract_status": "Casual",
+        "period_targets": 3778,
+        "period_actuals": 2947,
+        "variance": 831,
+        "achieved": 78
+      },
+      {
+        "id": 23,
+        "supervisor_name": "Archibald Seekings",
+        "block_name": "Mukengeria",
+        "area": 61,
+        "contract_status": "Contract",
+        "period_targets": 3593,
+        "period_actuals": 3098,
+        "variance": 495,
+        "achieved": 86
+      },
+      {
+        "id": 24,
+        "supervisor_name": "Darcie Billingsley",
+        "block_name": "Kimende",
+        "area": 25,
+        "contract_status": "Casual",
+        "period_targets": 2796,
+        "period_actuals": 3380,
+        "variance": -584,
+        "achieved": 120
+      },
+      {
+        "id": 25,
+        "supervisor_name": "Donal Clackers",
+        "block_name": "Gatitu",
+        "area": 60,
+        "contract_status": "Casual",
+        "period_targets": 2349,
+        "period_actuals": 2966,
+        "variance": -617,
+        "achieved": 126
+      },
+      {
+        "id": 26,
+        "supervisor_name": "Rowan McLaverty",
+        "block_name": "Mwerua",
+        "area": 56,
+        "contract_status": "Casual",
+        "period_targets": 3672,
+        "period_actuals": 3054,
+        "variance": 618,
+        "achieved": 83
+      },
+      {
+        "id": 27,
+        "supervisor_name": "Vivianna Kensit",
+        "block_name": "Kimende",
+        "area": 42,
+        "contract_status": "Contract",
+        "period_targets": 2369,
+        "period_actuals": 3467,
+        "variance": -1098,
+        "achieved": 146
+      },
+      {
+        "id": 28,
+        "supervisor_name": "Patti Huggan",
+        "block_name": "Gatitu",
+        "area": 43,
+        "contract_status": "Contract",
+        "period_targets": 3537,
+        "period_actuals": 2502,
+        "variance": 1035,
+        "achieved": 70
+      },
+      {
+        "id": 29,
+        "supervisor_name": "Krystyna Huskinson",
+        "block_name": "Kiongori",
+        "area": 27,
+        "contract_status": "Permanent",
+        "period_targets": 3550,
+        "period_actuals": 3137,
+        "variance": 413,
+        "achieved": 88
+      },
+      {
+        "id": 30,
+        "supervisor_name": "Katine Aizikov",
+        "block_name": "Kimende",
+        "area": 31,
+        "contract_status": "Casual",
+        "period_targets": 3170,
+        "period_actuals": 3285,
+        "variance": -115,
+        "achieved": 103
+      }
+    ],
+    "payments": [
+      {
+        "id": 1,
+        "block_name": "Kagaita",
+        "collection_value": 85707,
+        "payout_value": 75961,
+        "variance": -9746
+      },
+      {
+        "id": 2,
+        "block_name": "Kagaita",
+        "collection_value": 37290,
+        "payout_value": 85186,
+        "variance": 47896
+      },
+      {
+        "id": 3,
+        "block_name": "Kabare",
+        "collection_value": 74311,
+        "payout_value": 59166,
+        "variance": -15145
+      },
+      {
+        "id": 4,
+        "block_name": "Karima",
+        "collection_value": 63256,
+        "payout_value": 41240,
+        "variance": -22016
+      },
+      {
+        "id": 5,
+        "block_name": "Kariko",
+        "collection_value": 78402,
+        "payout_value": 34751,
+        "variance": -43651
+      },
+      {
+        "id": 6,
+        "block_name": "Karima",
+        "collection_value": 56919,
+        "payout_value": 42808,
+        "variance": -14111
+      },
+      {
+        "id": 7,
+        "block_name": "Karima",
+        "collection_value": 49975,
+        "payout_value": 43062,
+        "variance": -6913
+      },
+      {
+        "id": 8,
+        "block_name": "Kabare",
+        "collection_value": 79834,
+        "payout_value": 37814,
+        "variance": -42020
+      },
+      {
+        "id": 9,
+        "block_name": "Kagaita",
+        "collection_value": 37408,
+        "payout_value": 82313,
+        "variance": 44905
+      },
+      {
+        "id": 10,
+        "block_name": "Kagaita",
+        "collection_value": 66993,
+        "payout_value": 42224,
+        "variance": -24769
+      },
+      {
+        "id": 11,
+        "block_name": "Karima",
+        "collection_value": 22428,
+        "payout_value": 68049,
+        "variance": 45621
+      },
+      {
+        "id": 12,
+        "block_name": "Kagaita",
+        "collection_value": 46945,
+        "payout_value": 86970,
+        "variance": 40025
+      },
+      {
+        "id": 13,
+        "block_name": "Thaita",
+        "collection_value": 65567,
+        "payout_value": 34508,
+        "variance": -31059
+      },
+      {
+        "id": 14,
+        "block_name": "Mwerua",
+        "collection_value": 51783,
+        "payout_value": 59662,
+        "variance": 7879
+      },
+      {
+        "id": 15,
+        "block_name": "Thaita",
+        "collection_value": 30124,
+        "payout_value": 31371,
+        "variance": 1247
+      },
+      {
+        "id": 16,
+        "block_name": "Kariko",
+        "collection_value": 43930,
+        "payout_value": 42408,
+        "variance": -1522
+      },
+      {
+        "id": 17,
+        "block_name": "Kariko",
+        "collection_value": 49872,
+        "payout_value": 55536,
+        "variance": 5664
+      },
+      {
+        "id": 18,
+        "block_name": "Kagaita",
+        "collection_value": 40377,
+        "payout_value": 58752,
+        "variance": 18375
+      },
+      {
+        "id": 19,
+        "block_name": "Kabare",
+        "collection_value": 47470,
+        "payout_value": 76211,
+        "variance": 28741
+      },
+      {
+        "id": 20,
+        "block_name": "Karima",
+        "collection_value": 40377,
+        "payout_value": 49036,
+        "variance": 8659
+      },
+      {
+        "id": 21,
+        "block_name": "Mwerua",
+        "collection_value": 35585,
+        "payout_value": 70708,
+        "variance": 35123
+      },
+      {
+        "id": 22,
+        "block_name": "Kariko",
+        "collection_value": 42595,
+        "payout_value": 53116,
+        "variance": 10521
+      },
+      {
+        "id": 23,
+        "block_name": "Karima",
+        "collection_value": 43415,
+        "payout_value": 49197,
+        "variance": 5782
+      },
+      {
+        "id": 24,
+        "block_name": "Thaita",
+        "collection_value": 66391,
+        "payout_value": 67674,
+        "variance": 1283
+      },
+      {
+        "id": 25,
+        "block_name": "Kagaita",
+        "collection_value": 84026,
+        "payout_value": 48167,
+        "variance": -35859
+      },
+      {
+        "id": 26,
+        "block_name": "Kagaita",
+        "collection_value": 30891,
+        "payout_value": 89396,
+        "variance": 58505
+      },
+      {
+        "id": 27,
+        "block_name": "Karima",
+        "collection_value": 27498,
+        "payout_value": 83452,
+        "variance": 55954
+      },
+      {
+        "id": 28,
+        "block_name": "Kagaita",
+        "collection_value": 43463,
+        "payout_value": 35618,
+        "variance": -7845
+      },
+      {
+        "id": 29,
+        "block_name": "Kariko",
+        "collection_value": 46034,
+        "payout_value": 35058,
+        "variance": -10976
+      },
+      {
+        "id": 30,
+        "block_name": "Thaita",
+        "collection_value": 58319,
+        "payout_value": 58851,
+        "variance": 532
+      }
+    ]
+  }
 }
